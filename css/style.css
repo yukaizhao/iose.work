@@ -2,6 +2,7 @@
    IOSE - Intent-Oriented Software Engineering
    Modern CSS Design System
    ============================================ */
+/* Breakpoints (keep in sync with scripts.html): 1024 sidebar, 768 tablet, 640 large phone, 480 small phone */
 
 /* CSS Variables */
 :root {
@@ -206,6 +207,10 @@ img {
     gap: var(--space-3);
 }
 
+.slogan-main .mobile-br {
+    display: none;
+}
+
 .slogan-main {
     font-size: 1.25rem;
     font-weight: 700;
@@ -230,23 +235,116 @@ img {
     letter-spacing: 0.02em;
 }
 
+/* 768px–1023px: keep main + sub, hide divider */
+@media (max-width: 1023px) {
+    .slogan-divider {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
+    .header-inner {
+        gap: var(--space-3);
+    }
+
     .header-slogan {
         flex-direction: column;
         gap: var(--space-1);
-    }
-
-    .slogan-divider {
-        width: 30px;
-        height: 2px;
+        min-width: 0;
+        flex-shrink: 1;
     }
 
     .slogan-main {
         font-size: 1rem;
+        line-height: 1.35;
+        text-align: center;
+    }
+
+    .slogan-main .mobile-br {
+        display: inline;
     }
 
     .slogan-sub {
         font-size: 0.75rem;
+    }
+
+    .header-actions {
+        gap: var(--space-1);
+    }
+
+    .header-actions .btn {
+        padding: var(--space-2) var(--space-2);
+        font-size: 0.75rem;
+    }
+}
+
+/* 640px and below: only main slogan, tighter header */
+@media (max-width: 640px) {
+    .slogan-sub {
+        display: none;
+    }
+
+    .header-inner {
+        gap: var(--space-2);
+    }
+
+    .header-actions {
+        gap: var(--space-1);
+    }
+
+    .header-actions .btn {
+        padding: var(--space-2) 0.375rem;
+        font-size: 0.6875rem;
+    }
+}
+
+/* 480px: compact main slogan and header buttons */
+@media (max-width: 480px) {
+    .slogan-main {
+        font-size: 0.9375rem;
+    }
+
+    .header-actions .btn {
+        padding: var(--space-2) 0.25rem;
+        font-size: 0.625rem;
+    }
+}
+
+/* Header TOC button: only on chapter pages at mobile breakpoint (see scripts.html MOBILE_BREAKPOINT) */
+.header-toc-btn {
+    display: none;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    margin-right: var(--space-2);
+    border: none;
+    background: var(--color-gray-100);
+    color: var(--color-gray-700);
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.header-toc-btn:hover {
+    background: var(--color-primary-100);
+    color: var(--color-primary-600);
+}
+
+@media (max-width: 1024px) {
+    body.has-sidebar .header-toc-btn {
+        display: flex;
+    }
+}
+
+@media (max-width: 640px) {
+    .header-toc-btn .header-toc-btn-text {
+        display: none;
+    }
+
+    .header-toc-btn {
+        padding: var(--space-2);
     }
 }
 
@@ -254,6 +352,12 @@ img {
     display: flex;
     align-items: center;
     gap: var(--space-3);
+    min-width: 0;
+}
+
+.header-actions .btn {
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .language-switch {
@@ -343,12 +447,13 @@ img {
 /* ============================================
    Hero Section
    ============================================ */
+/* Reserve top space for fixed header (64px) so hero is not covered */
 .hero {
     position: relative;
     min-height: 85vh;
     display: flex;
     align-items: center;
-    padding: var(--space-20) 0 var(--space-12);
+    padding: calc(64px + var(--space-8)) var(--space-6) var(--space-12);
     overflow: hidden;
 }
 
@@ -1038,10 +1143,6 @@ body.has-sidebar .site-footer .container {
         text-align: center;
     }
 
-    .footer-donate {
-        order: -1;
-    }
-
     .footer-desc {
         margin: var(--space-6) auto 0;
         max-width: 480px;
@@ -1063,12 +1164,33 @@ body.has-sidebar .site-footer .container {
 }
 
 @media (max-width: 480px) {
+    .container {
+        padding: 0 var(--space-4);
+    }
+
     .hero-actions {
         flex-direction: column;
     }
 
     .btn {
         width: 100%;
+    }
+
+    .hero {
+        padding: calc(64px + var(--space-4)) 0 var(--space-8);
+    }
+
+    .gradient-orb {
+        filter: blur(50px);
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+        margin-bottom: var(--space-10);
+    }
+
+    .stats {
+        padding: var(--space-10) 0;
     }
 
     .stats-grid {
@@ -1080,6 +1202,21 @@ body.has-sidebar .site-footer .container {
         font-size: 2rem;
     }
 
+    .features {
+        padding: var(--space-16) 0;
+    }
+
+    .feature-card {
+        padding: var(--space-6);
+    }
+
+    .toc-preview {
+        padding: var(--space-16) 0;
+    }
+
+    .cta-title {
+        font-size: 1.5rem;
+    }
 }
 
 /* ============================================
@@ -1962,6 +2099,24 @@ body.has-sidebar .site-footer .container {
 
     .page-content.with-sidebar .content-wrapper p {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-wrapper {
+        padding: var(--space-4);
+    }
+
+    .page-content.with-sidebar .content-wrapper {
+        padding: var(--space-4);
+    }
+
+    .page-content.with-sidebar .content-wrapper h1 {
+        font-size: 1.375rem;
+    }
+
+    .page-content.with-sidebar .content-wrapper h2 {
+        font-size: 1.125rem;
     }
 }
 
