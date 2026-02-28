@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Intent-Oriented Software Engineering</title><link>/en/</link><description>Recent content on Intent-Oriented Software Engineering</description><generator>Hugo</generator><language>en</language><atom:link href="/en/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>/en/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/readme/</guid><description>&lt;h1&gt;
+ Intent-Oriented Software Engineering: A Paradigm Revolution from Code to Intent
+ &lt;/h1&gt;
+
+
+
+
+
+ &lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;/h2&gt;
+
+&lt;p&gt;This is a comprehensive guide to the future of software engineering. As large-scale AI agents gain powerful execution capabilities, humanity&amp;rsquo;s core value will shift upward from &amp;ldquo;How to implement&amp;rdquo; to &amp;ldquo;What to achieve&amp;rdquo; and &amp;ldquo;Why it matters.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;This book originates from an in-depth dialogue spanning dozens of sessions, systematically exploring the complete journey from traditional software engineering to Intent-Oriented Software Engineering (IOSE). Whether you&amp;rsquo;re a technical leader, architect, developer, or entrepreneur, you&amp;rsquo;ll gain profound insights and practical guidance about the future of software engineering.&lt;/p&gt;</description></item><item><title>About This Book</title><link>/en/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/about/</guid><description>&lt;h1&gt;
+ About Intent-Oriented Software Engineering
+ &lt;/h1&gt;
+
+
+
+
+
+ &lt;h2 id="book-introduction"&gt;
+ Book Introduction
+ &lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;Intent-Oriented Software Engineering&amp;rdquo; is an open-source ebook exploring the paradigm shift in software engineering in the AI era. As large-scale AI agents gain powerful execution capabilities, humanity&amp;rsquo;s core value will shift upward from &amp;ldquo;How to implement&amp;rdquo; to &amp;ldquo;What to achieve&amp;rdquo; and &amp;ldquo;Why it matters.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;This book systematically explores the complete journey from traditional software engineering to Intent-Oriented Software Engineering, providing practical transformation solutions for technical teams.&lt;/p&gt;</description></item><item><title>Chapter 1: What is Intent-Oriented Software Engineering</title><link>/en/part1/01-what-is-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/01-what-is-iose/</guid><description>&lt;h1&gt;
+ Chapter 1: What is Intent-Oriented Software Engineering
+ &lt;/h1&gt;
+
+
+
+
+
+ &lt;h2 id="1-a-core-proposition"&gt;
+ 1 A Core Proposition
+ &lt;/h2&gt;
+
+&lt;p&gt;Software engineering is undergoing a profound paradigm shift, where future software development will no longer be a craft centered around code, but a new engineering form—&lt;strong&gt;Intent-Oriented Software Engineering (IOSE)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The essence of &amp;ldquo;intent-oriented&amp;rdquo; lies in introducing large model agents (Agents) into the core of software production, allowing them to replace human programmers, testers, and even architects in undertaking repetitive implementation work in traditional development processes—from writing detailed design documents to writing specific code, constructing test cases, building automation scripts, and executing unit tests. Under this paradigm, as long as humans can express intent accurately and completely, large models can efficiently transform it into runnable software systems.&lt;/p&gt;</description></item><item><title>Chapter 2: Why This Transformation is Needed</title><link>/en/part1/02-why-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/02-why-iose/</guid><description>&lt;h1&gt;
+ Chapter 2: Why This Transformation is Needed
+ &lt;/h1&gt;
+
+
+
+
+
+ &lt;h2 id="1-the-fundamental-contradiction-of-software-engineering"&gt;
+ 1 The Fundamental Contradiction of Software Engineering
+ &lt;/h2&gt;
+
+&lt;p&gt;Looking back at the more than half-century development of software engineering, this field has always been troubled by a fundamental contradiction: &lt;strong&gt;the structural conflict between rapidly changing business requirements and the high cost of modifying software systems.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To understand the essence of this contradiction, we must first analyze &lt;strong&gt;the dual sources of software complexity&lt;/strong&gt;. In the past, the essence of software complexity lay in the superposition of &lt;strong&gt;business complexity and technical complexity&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Chapter 3: Intent Layering</title><link>/en/part1/03-intent-layers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/03-intent-layers/</guid><description>&lt;h1&gt;
+ Chapter 3: Intent Layering
+ &lt;/h1&gt;
+
+
+
+
+
+ &lt;h2 id="1-why-layering-is-needed"&gt;
+ 1 Why Layering is Needed
+ &lt;/h2&gt;
+
+&lt;p&gt;Intent is never a single-dimensional simple instruction, but a layered semantic system. Let us understand this through a concrete scenario: when an executive says &amp;ldquo;we want to develop a membership system&amp;rdquo; at a project kickoff meeting, different roles in the room actually receive completely different information—&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The CEO&lt;/strong&gt; envisions numbers on financial statements: can this system improve user retention? Can it bring considerable revenue growth? How does it support the company&amp;rsquo;s long-term competitive moat?&lt;/p&gt;</description></item><item><title>Read the Book</title><link>/en/read/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/read/</guid><description>&lt;h1&gt;
+ Intent-Oriented Software Engineering
+ &lt;/h1&gt;
+
+
+
+
+
+ &lt;h2 id="preface"&gt;
+ Preface
+ &lt;/h2&gt;
+
+&lt;p&gt;This is a systematic guide about the future form of software engineering. When large model agents possess powerful execution capabilities, human core value will completely shift from &amp;ldquo;How to implement&amp;rdquo; to &amp;ldquo;What to implement&amp;rdquo; and &amp;ldquo;Why implement it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;This book systematically explores the complete path of transition from traditional software engineering to &amp;ldquo;intent-oriented software engineering.&amp;rdquo; Whether you are a technical manager, architect, developer, or entrepreneur, you can gain profound insights and practical guidelines about the future of software engineering from this book.&lt;/p&gt;</description></item></channel></rss>
