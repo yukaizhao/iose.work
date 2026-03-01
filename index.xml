@@ -463,10 +463,9 @@
 
 
 
-&lt;span class="chapter-link-unpublished"&gt;
- 第一章：什么是面向意图软件工程
- &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
-&lt;/span&gt;
+
+
+&lt;a href="/part1/01-what-is-iose/" class="chapter-link-published"&gt;第一章：什么是面向意图软件工程&lt;/a&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
@@ -482,10 +481,9 @@
 
 
 
-&lt;span class="chapter-link-unpublished"&gt;
- 第二章：为什么需要这场变革
- &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
-&lt;/span&gt;
+
+
+&lt;a href="/part1/02-why-iose/" class="chapter-link-published"&gt;第二章：为什么需要这场变革&lt;/a&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
@@ -501,13 +499,14 @@
 
 
 
-&lt;span class="chapter-link-unpublished"&gt;
- 第三章：意图的分层架构
- &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
-&lt;/span&gt;
+
+
+&lt;a href="/part1/03-intent-layers/" class="chapter-link-published"&gt;第三章：意图的分层架构&lt;/a&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
+
+
 
 
 
@@ -549,6 +548,8 @@
 
 
 
+
+
 &lt;span class="chapter-link-unpublished"&gt;
  第五章：过渡的四个阶段
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
@@ -556,6 +557,8 @@
 
 &lt;/li&gt;
 &lt;li&gt;
+
+
 
 
 
@@ -587,6 +590,8 @@
 
 
 
+
+
 &lt;span class="chapter-link-unpublished"&gt;
  第七章：从传统团队到原子团队
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
@@ -606,6 +611,8 @@
 
 
 
+
+
 &lt;span class="chapter-link-unpublished"&gt;
  第八章：新的文档范式
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
@@ -613,6 +620,8 @@
 
 &lt;/li&gt;
 &lt;li&gt;
+
+
 
 
 
@@ -654,6 +663,8 @@
 
 
 
+
+
 &lt;span class="chapter-link-unpublished"&gt;
  第十章：管理者如何引导团队变革
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
@@ -661,6 +672,8 @@
 
 &lt;/li&gt;
 &lt;li&gt;
+
+
 
 
 
@@ -692,6 +705,8 @@
 
 
 
+
+
 &lt;span class="chapter-link-unpublished"&gt;
  第十二章：产品经理的进化
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
@@ -699,6 +714,8 @@
 
 &lt;/li&gt;
 &lt;li&gt;
+
+
 
 
 
@@ -730,6 +747,8 @@
 
 
 
+
+
 &lt;span class="chapter-link-unpublished"&gt;
  第十四章：遗留系统的迁移策略
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
@@ -737,6 +756,8 @@
 
 &lt;/li&gt;
 &lt;li&gt;
+
+
 
 
 
@@ -778,6 +799,8 @@
 
 
 
+
+
 &lt;span class="chapter-link-unpublished"&gt;
  第十六章：新软件工程领域的创业机会
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
@@ -797,6 +820,8 @@
 
 
 
+
+
 &lt;span class="chapter-link-unpublished"&gt;
  第十七章：2050 年的回望与警示
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
@@ -804,6 +829,8 @@
 
 &lt;/li&gt;
 &lt;li&gt;
+
+
 
 
 
