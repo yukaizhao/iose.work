@@ -1,1 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Part2s on 面向意图软件工程</title><link>/part2/</link><description>Recent content in Part2s on 面向意图软件工程</description><generator>Hugo</generator><language>zh</language><atom:link href="/part2/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Part2s on 面向意图软件工程</title><link>/part2/</link><description>Recent content in Part2s on 面向意图软件工程</description><generator>Hugo</generator><language>zh</language><atom:link href="/part2/index.xml" rel="self" type="application/rss+xml"/><item><title>第五章：过渡的四个阶段</title><link>/part2/05-four-stages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part2/05-four-stages/</guid><description>&lt;h1&gt;
+ 第五章：过渡的四个阶段
+ &lt;/h1&gt;
+
+
+
+
+
+ &lt;h2 id="1-变革不是一蹴而就"&gt;
+ 1 变革不是一蹴而就
+ &lt;/h2&gt;
+
+&lt;p&gt;从传统软件工程向面向意图软件工程过渡，不会一夜之间完成。这是一个逐步解构与重构的过程，涉及技术栈升级、组织文化变革和思维模式的转变。&lt;/p&gt;
+&lt;p&gt;理解过渡的阶段特征，有助于我们制定合理的路线图，设定切合实际的期望。&lt;/p&gt;
+
+
+
+
+ &lt;h2 id="2-阶段一副驾驶阶段copilot-era"&gt;
+ 2 阶段一：副驾驶阶段（Copilot Era）
+ &lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;时间定位&lt;/strong&gt;：2024-2025（与智能体阶段重叠，逐步弱化）&lt;/p&gt;
+&lt;p&gt;副驾驶阶段以GitHub Copilot、CodeWhisperer等工具的兴起为标志，AI扮演程序员的&amp;quot;结对编程伙伴&amp;quot;，基于局部意图（注释、函数名）完成行级代码补全。&lt;/p&gt;
+&lt;p&gt;然而进入2025年，这一模式正在发生微妙而深刻的变化。随着Cursor Composer、Claude Code、Kiro等Agentic工具的爆发式成熟，开发者发现：&lt;strong&gt;与其让AI在已有代码中填空，不如直接让AI理解完整意图并生成整个功能模块&lt;/strong&gt;。Copilot式的&amp;quot;补全&amp;quot;并未消失，但在越来越多的场景中被更高效的Agent模式所替代。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-java" data-lang="java"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Copilot时代：人类写注释，AI补全函数&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 计算两个日期之间的天数差&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;long&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;daysBetween&lt;/span&gt;(Date d1, Date d2) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; ChronoUnit.&lt;span style="color:#a6e22e"&gt;DAYS&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;between&lt;/span&gt;(d1.&lt;span style="color:#a6e22e"&gt;toInstant&lt;/span&gt;(), d2.&lt;span style="color:#a6e22e"&gt;toInstant&lt;/span&gt;());
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 2025年的趋势：人类定义技术意图（实现规格），AI生成完整模块&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// &amp;#34;实现一个提醒调度器，包含扫描、生成、发送三个子任务...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Agent直接输出：ReminderScheduler.java + ReminderTask.java + 单元测试&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2025年是两个阶段的&lt;strong&gt;重叠过渡期&lt;/strong&gt;——Copilot仍在日常使用，但越来越多的开发任务开始迁移到Agent工具。团队的核心任务不再是&amp;quot;如何用好Copilot&amp;quot;，而是&lt;strong&gt;如何在日常工作中逐步引入Agent工具，从&amp;quot;辅助编码&amp;quot;过渡到&amp;quot;任务委托&amp;quot;&lt;/strong&gt;。&lt;/p&gt;
+
+
+
+
+ &lt;h2 id="3-阶段二智能体阶段agentic-era"&gt;
+ 3 阶段二：智能体阶段（Agentic Era）
+ &lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;时间定位&lt;/strong&gt;：2025年起成为主流（与Copilot阶段重叠，快速替代）&lt;/p&gt;
+
+
+
+
+ &lt;h3 id="核心特征"&gt;
+ 核心特征
+ &lt;/h3&gt;
+
+&lt;p&gt;进入2025年，软件工程正在经历从&amp;quot;辅助&amp;quot;到&amp;quot;代理&amp;quot;的关键跃迁。以Cursor Composer、Claude Code、Kiro、GitHub Copilot Workspace为代表的Agentic工具，正在快速替代传统的Copilot模式。这些工具不再满足于&amp;quot;补全代码&amp;quot;，而是能够&lt;strong&gt;理解完整意图、自主规划任务、生成多文件代码、执行测试验证&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;一个典型的2025年工作场景是：开发者打开Cursor Composer，输入&amp;quot;实现基于手机号和验证码的用户登录功能，包含验证码发送、校验、Token生成&amp;quot;，Agent会在几分钟内：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;分析需求并设计技术方案&lt;/li&gt;
+&lt;li&gt;创建数据库表结构和领域模型&lt;/li&gt;
+&lt;li&gt;生成后端API和前端界面代码&lt;/li&gt;
+&lt;li&gt;编写单元测试和集成测试&lt;/li&gt;
+&lt;li&gt;提交完整的合并请求&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;人类的核心工作转变为&lt;strong&gt;审查Agent生成的方案是否符合意图&lt;/strong&gt;，而非亲手编写每一行代码。这种&amp;quot;任务委托&amp;quot;模式正在迅速成为软件开发的主流形态。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;值得注意的是&lt;/strong&gt;：2025年是Copilot与Agent的&lt;strong&gt;重叠过渡期&lt;/strong&gt;。开发者可能上午还在用Copilot补全函数，下午就切换到Cursor让Agent生成整个模块。但随着Agent工具能力的快速提升，使用Copilot的场景正在逐渐减少。&lt;/p&gt;
+
+
+
+
+ &lt;h3 id="协作模式专业vibecoding"&gt;
+ 协作模式：专业VibeCoding
+ &lt;/h3&gt;
+
+&lt;p&gt;在智能体阶段，人机协作的基本单元从函数级跃升至任务级。但与非专业人士随意的&amp;quot;VibeCoding&amp;quot;（即兴编程）不同，&lt;strong&gt;专业工程师与Agent的协作是一种受控的对话式开发&lt;/strong&gt;——看似自然语言交流，实则蕴含着严谨的任务管理和质量控制。&lt;/p&gt;</description></item></channel></rss>
