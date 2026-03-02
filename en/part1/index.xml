@@ -10,8 +10,8 @@
  1 A Core Proposition
  &lt;/h2&gt;
 
-&lt;p&gt;Software engineering is undergoing a profound paradigm shift, where future software development will no longer be a craft centered around code, but a new engineering form—&lt;strong&gt;Intent-Oriented Software Engineering (IOSE)&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;The essence of &amp;ldquo;intent-oriented&amp;rdquo; lies in introducing large model agents (Agents) into the core of software production, allowing them to replace human programmers, testers, and even architects in undertaking repetitive implementation work in traditional development processes—from writing detailed design documents to writing specific code, constructing test cases, building automation scripts, and executing unit tests. Under this paradigm, as long as humans can express intent accurately and completely, large models can efficiently transform it into runnable software systems.&lt;/p&gt;</description></item><item><title>Chapter 2: Why This Transformation is Needed</title><link>/en/part1/02-why-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/02-why-iose/</guid><description>&lt;h1&gt;
+&lt;p&gt;Software engineering is undergoing a profound paradigm shift. In the future, software development will no longer be a craft centered around code, but an entirely new engineering paradigm—&lt;strong&gt;Intent-Oriented Software Engineering (IOSE)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The essence of &amp;ldquo;intent-oriented&amp;rdquo; lies in introducing Large Language Model (LLM) agents into the core of software production, allowing them to replace human programmers, testers, and even architects in undertaking the repetitive implementation work of traditional development processes—from writing detailed design documents to crafting specific code, constructing test cases, building automation scripts, and executing unit tests. In this paradigm, as long as humans can express intent accurately and completely, LLMs can transform it into a running software system with remarkable efficiency.&lt;/p&gt;</description></item><item><title>Chapter 2: Why This Transformation is Needed</title><link>/en/part1/02-why-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/02-why-iose/</guid><description>&lt;h1&gt;
  Chapter 2: Why This Transformation is Needed
  &lt;/h1&gt;
 
@@ -19,22 +19,22 @@
 
 
 
- &lt;h2 id="1-the-fundamental-contradiction-of-software-engineering"&gt;
- 1 The Fundamental Contradiction of Software Engineering
+ &lt;h2 id="1-the-fundamental-contradiction-in-software-engineering"&gt;
+ 1 The Fundamental Contradiction in Software Engineering
  &lt;/h2&gt;
 
-&lt;p&gt;Looking back at the more than half-century development of software engineering, this field has always been troubled by a fundamental contradiction: &lt;strong&gt;the structural conflict between rapidly changing business requirements and the high cost of modifying software systems.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;To understand the essence of this contradiction, we must first analyze &lt;strong&gt;the dual sources of software complexity&lt;/strong&gt;. In the past, the essence of software complexity lay in the superposition of &lt;strong&gt;business complexity and technical complexity&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Chapter 3: Intent Layering</title><link>/en/part1/03-intent-layers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/03-intent-layers/</guid><description>&lt;h1&gt;
- Chapter 3: Intent Layering
+&lt;p&gt;Throughout the more than half-century development of software engineering, this field has always been troubled by a fundamental contradiction: &lt;strong&gt;the structural conflict between rapidly changing business requirements and the high cost of modifying software systems.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To understand the essence of this contradiction, we must first analyze &lt;strong&gt;the dual sources of software complexity&lt;/strong&gt;. Software complexity arises from the superposition of &lt;strong&gt;Essential Complexity and Accidental Complexity&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Chapter 3: Intent Layers</title><link>/en/part1/03-intent-layers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/03-intent-layers/</guid><description>&lt;h1&gt;
+ Chapter 3: Intent Layers
  &lt;/h1&gt;
 
 
 
 
 
- &lt;h2 id="1-why-layering-is-needed"&gt;
- 1 Why Layering is Needed
+ &lt;h2 id="1-why-layering-is-necessary"&gt;
+ 1 Why Layering is Necessary
  &lt;/h2&gt;
 
-&lt;p&gt;Intent is never a single-dimensional simple instruction, but a layered semantic system. Let us understand this through a concrete scenario: when an executive says &amp;ldquo;we want to develop a membership system&amp;rdquo; at a project kickoff meeting, different roles in the room actually receive completely different information—&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The CEO&lt;/strong&gt; envisions numbers on financial statements: can this system improve user retention? Can it bring considerable revenue growth? How does it support the company&amp;rsquo;s long-term competitive moat?&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Intent is never a simple, single-dimensional instruction, but rather a layered semantic system. Let us understand this through a concrete scenario: when an executive says &amp;ldquo;we want to develop a membership system&amp;rdquo; at a project kickoff meeting, different roles in the room actually receive completely different information—&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;CEO&lt;/strong&gt; envisions numbers on financial reports: can this system improve user retention? Can it generate substantial revenue growth? How does it support the company&amp;rsquo;s long-term competitive moat?&lt;/p&gt;</description></item></channel></rss>
