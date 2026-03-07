@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>面向意图软件工程</title><link>/</link><description>Recent content on 面向意图软件工程</description><generator>Hugo</generator><language>zh</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>第二章：为什么需要这场变革</title><link>/part1/02-why-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part1/02-why-iose/</guid><description>&lt;h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>面向智能体软件工程</title><link>/</link><description>Recent content on 面向智能体软件工程</description><generator>Hugo</generator><language>zh</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>第二章：为什么需要这场变革</title><link>/part1/02-why-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part1/02-why-iose/</guid><description>&lt;h1&gt;
  第二章：为什么需要这场变革
  &lt;/h1&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;AI Agent正在从根本上改变软件工程的核心矛盾：它消化了实现层面的复杂性，将开发效率的瓶颈从&amp;quot;如何实现&amp;quot;转移到&amp;quot;如何准确表达需求&amp;quot;。这场变革让人类从代码执行者转变为价值判断与需求协调者，专注于AI无法替代的业务理解和权衡决策。&lt;/p&gt;
+&lt;/blockquote&gt;
 
 
 
@@ -18,7 +21,7 @@
 &lt;/ul&gt;
 &lt;p&gt;业务环境瞬息万变，市场竞争要求企业能够以周甚至以天为单位响应变化；然而，软件系统一旦构建完成，便具有了某种&amp;quot;凝固&amp;quot;的特性——每一个功能模块、每一行代码、每一个接口都像是被浇筑在混凝土中，改动它们需要付出高昂的成本和风险。这种矛盾在数字化程度越来越深的今天变得愈发尖锐。&lt;/p&gt;
 &lt;p&gt;面对这一困境，传统的应对策略通常是不断增加人力投入、优化项目管理流程、引入更先进的开发工具。但这些努力往往收效甚微，甚至可能适得其反。正如Fred Brooks在其经典著作《人月神话》中提出的著名法则所言：&amp;ldquo;向进度落后的软件项目添加人手，只会使进度更加落后。&amp;ldquo;原因在于，沟通成本会随着团队规模的扩大呈指数级增长，新增人员带来的生产能力提升往往被协调开销所抵消。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;然而，大模型Agent技术的突破正在从根本上改变这一格局&lt;/strong&gt;——AI不仅能够理解并处理复杂的业务逻辑，还能够以极高的效率生成、重构和维护代码。这种能力的质变意味着，软件开发的核心矛盾正在发生转移：从&amp;quot;如何在有限人力下管理复杂度以响应变化&amp;quot;转变为&amp;quot;如何准确表达意图以驱动AI高效实现&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;然而，大模型Agent技术的突破正在从根本上改变这一格局&lt;/strong&gt;——AI不仅能够理解并处理复杂的业务逻辑，还能够以极高的效率生成、重构和维护代码。这种能力的质变意味着，软件开发的核心矛盾正在发生转移：从&amp;quot;如何在有限人力下管理复杂度以响应变化&amp;quot;转变为&amp;quot;如何准确表达需求以驱动智能体高效实现&amp;rdquo;。&lt;/p&gt;
 &lt;p&gt;显然，我们需要一种根本性的范式创新，而非在原有路径上的修修补补。&lt;/p&gt;
 
 
@@ -77,7 +80,7 @@
  3 变革的三大驱动力
  &lt;/h2&gt;
 
-&lt;p&gt;既然传统模式存在如此深刻的结构性困境，那么变革的动力又来自何方？我们认为，有三个相互交织的力量正在推动软件工程走向面向意图的新范式。&lt;/p&gt;
+&lt;p&gt;既然传统模式存在如此深刻的结构性困境，那么变革的动力又来自何方？我们认为，有三个相互交织的力量正在推动软件工程走向面向智能体的新范式。&lt;/p&gt;
 
 
 
@@ -123,94 +126,111 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;这种代际差异意味着，软件生产的成本结构和效率曲线正在发生根本性的改变。AI Agent不是人类的替代品，而是人类能力的放大器——它们能够承担大量重复性、规则性的实现工作，释放人类去处理更具创造性和判断性的任务。&lt;/p&gt;</description></item><item><title>第三章：意图的分层</title><link>/part1/03-intent-layers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part1/03-intent-layers/</guid><description>&lt;h1&gt;
- 第三章：意图的分层
+&lt;p&gt;这种代际差异意味着，软件生产的成本结构和效率曲线正在发生根本性的改变。AI Agent不是人类的替代品，而是人类能力的放大器——它们能够承担大量重复性、规则性的实现工作，释放人类去处理更具创造性和判断性的任务。&lt;/p&gt;</description></item><item><title>第六章：从传统团队到原子团队</title><link>/part2/06-team-transformation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part2/06-team-transformation/</guid><description>&lt;h1&gt;
+ 第六章：从传统团队到原子团队
  &lt;/h1&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;原子团队是2-3人精英（产品经理+Agent工程师）指挥Agent舰队的特种部队模式。执行主体从&amp;quot;人编码&amp;quot;转向&amp;quot;人定义需求、Agent执行、人审查&amp;quot;的闭环飞轮，交付周期从周/月级跃迁至小时/天级，实现数量级效率提升。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;传统软件开发团队正在经历一场从&amp;quot;人力密集型&amp;quot;向&amp;quot;逻辑密集型&amp;quot;的范式革命。这不仅是工具的升级，而是组织形态的根本重构——&lt;strong&gt;代码不再是最终产物，而是实现业务需求的&amp;quot;副产品&amp;quot;&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;本章将回答一个紧迫问题：当Agent成为执行主体，你的团队该如何重新设计？&lt;/p&gt;
 
 
 
 
- &lt;h2 id="1-为什么需要分层"&gt;
- 1 为什么需要分层
+ &lt;h2 id="1-组织形态的革命从传统军队到特种部队"&gt;
+ 1 组织形态的革命：从传统军队到特种部队
  &lt;/h2&gt;
 
-&lt;p&gt;意图从来都不是一个单一维度的简单指令，而是一个分层的语义体系。让我们通过一个具体的场景来理解这一点：当一位高管在项目启动会上说&amp;quot;我们要开发一个会员系统&amp;quot;时，在场的不同角色实际上接收到了完全不同的信息——&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CEO&lt;/strong&gt;脑海中浮现的是财务报表上的数字：这套系统能否提升用户留存率？能否带来可观的收入增长？它如何支撑公司的长期竞争壁垒？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;产品经理&lt;/strong&gt;则在思考功能蓝图：会员应该划分几个等级？每个等级的权益如何设计？定价策略应该采用怎样的梯度？如何与现有的积分体系打通？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;技术负责人&lt;/strong&gt;的关注点已经下沉到技术层面：这个系统应该如何保障性能？数据安全如何确保？高并发场景下如何稳定运行？&lt;/p&gt;
-&lt;p&gt;同一个&amp;quot;会员系统&amp;quot;的概念，在不同角色的认知中呈现出截然不同的面貌。这种认知差异不是沟通的失误，而是软件系统固有复杂性的体现——它同时涉及商业价值、产品功能和技术约束等多个层面。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;意图分层的核心目的，正是在这种复杂性中建立秩序。它将模糊的&amp;quot;开发一个系统&amp;quot;分解为清晰的三个层次：业务意图指明价值方向，产品意图定义具体功能，技术意图划定实现边界。其中，产品意图和技术意图是IOSE变革的核心操作界面。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;传统开发团队像一支庞大的传统军队，需要大量人员各司其职、层层汇报；未来团队更像是一支&lt;strong&gt;精锐特种部队&lt;/strong&gt;——少数特战队员（产品经理 + Agent工程师）配备最先进的智能装备（Agent舰队），以小股力量完成大规模作战任务。&lt;/p&gt;
 
 
 
 
- &lt;h2 id="2-意图的三层模型"&gt;
- 2 意图的三层模型
- &lt;/h2&gt;
-
-&lt;p&gt;在面向意图软件工程的实践中，我们将意图划分为三个层次，形成清晰的价值传递链条：&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code class="language-mermaid" data-lang="mermaid"&gt;flowchart TB
- A[&amp;#34;业务意图 Business&amp;#34;]
- A_desc[&amp;#34;回答为什么做——价值方向&amp;#34;]
- B[&amp;#34;产品意图 Product&amp;#34;]
- B_desc[&amp;#34;回答做什么——功能定义&amp;#34;]
- C[&amp;#34;技术意图 Technical&amp;#34;]
- C_desc[&amp;#34;回答怎么做才对——约束边界&amp;#34;]
-
- A --&amp;gt; A_desc
- A --&amp;gt; B
- B --&amp;gt; B_desc
- B --&amp;gt; C
- C --&amp;gt; C_desc
-
- style A fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
- style B fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
- style C fill:#fff3e0,stroke:#f57c00,stroke-width:2px
- style A_desc fill:#fafafa,stroke:#bdbdbd
- style B_desc fill:#fafafa,stroke:#bdbdbd
- style C_desc fill:#fafafa,stroke:#bdbdbd
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这三个层次分工明确、逐层递进。&lt;strong&gt;其中，产品意图和技术意图是IOSE变革的核心战场&lt;/strong&gt;——产品人员通过定义产品意图直接驱动开发，技术人员通过定义技术意图保障AI生成质量。&lt;/p&gt;
-
-
-
-
- &lt;h3 id="业务意图business-intent"&gt;
- 业务意图（Business Intent）
+ &lt;h3 id="对比传统软件开发团队-vs-原子团队"&gt;
+ 对比：传统软件开发团队 vs 原子团队
  &lt;/h3&gt;
 
-&lt;p&gt;业务意图聚焦于宏观的商业目标，回答&amp;quot;为什么要做&amp;quot;的问题。它通常来自高层管理者，为整个组织指明方向。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;业务意图的核心要素&lt;/strong&gt;：&lt;/p&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;
- &lt;th&gt;要素&lt;/th&gt;
- &lt;th&gt;说明&lt;/th&gt;
- &lt;th&gt;示例&lt;/th&gt;
+ &lt;th&gt;维度&lt;/th&gt;
+ &lt;th&gt;传统软件开发团队&lt;/th&gt;
+ &lt;th&gt;原子团队&lt;/th&gt;
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
  &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;业务目标&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;期望达成的商业结果&lt;/td&gt;
- &lt;td&gt;提升年费会员续费率10%&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;团队规模&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;8-15人（产品经理、前端、后端、测试、Ops）&lt;/td&gt;
+ &lt;td&gt;2-3人（产品经理 + 1-2名Agent工程师）&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;价值主张&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;为组织创造的核心价值&lt;/td&gt;
- &lt;td&gt;减少被动流失，增强用户粘性&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;沟通成本&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;高（各种同步会、评审会、文档对接）&lt;/td&gt;
+ &lt;td&gt;极低（人机交互为主，人类只需达成共识）&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;战略背景&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;为什么现在要做这件事&lt;/td&gt;
- &lt;td&gt;市场竞争加剧，会员留存成关键指标&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;产出物&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;源代码、API文档、测试报告&lt;/td&gt;
+ &lt;td&gt;业务逻辑Spec、Agent编排流、产品体验&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;核心动力&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;人力堆砌（增加需求 = 增加人头）&lt;/td&gt;
+ &lt;td&gt;算力与Agent规模（增加需求 = 增加Agent）&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;交付节奏&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;周/月级迭代&lt;/td&gt;
+ &lt;td&gt;小时/天级闪电迭代&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;业务意图相对稳定，更多作为背景存在。在IOSE变革中，它不需要被频繁操作，但需要被清晰理解和传达。&lt;/p&gt;</description></item><item><title>第四章：新旧范式的核心差异</title><link>/part1/04-paradigm-differences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part1/04-paradigm-differences/</guid><description>&lt;h1&gt;
- 第四章：新旧范式的核心差异
+&lt;p&gt;这种转变的本质是&lt;strong&gt;执行主体的转移&lt;/strong&gt;：从&amp;quot;人写代码&amp;quot;到&amp;quot;人定义产品需求，Agent生成代码&amp;quot;。传统团队的层级管理、职能分工、复杂流程，在Agent时代都成为效率的桎梏。原子团队以小而精的形态，通过&amp;quot;产品需求 → 编排 → 自动生成 → 自动测试 → 瞬时上线&amp;quot;的新范式，实现数量级的效率跃升。&lt;/p&gt;
+
+
+
+
+ &lt;h2 id="2-人机协同的闭环系统原子团队的协作模式"&gt;
+ 2 人机协同的闭环系统：原子团队的协作模式
+ &lt;/h2&gt;
+
+&lt;p&gt;当Agent成为执行主体，软件开发的效率和确定性得到了极大的提升。传统SDLC（软件生命周期）已经从&amp;quot;纯人工链路&amp;quot;演变为**&amp;ldquo;人机协同的闭环系统&amp;rdquo;&lt;strong&gt;。原子团队正是在这种新范式下运作的最小作战单元——一支&lt;/strong&gt;精锐特种部队**：特战指挥官（产品经理）制定战术目标，装备专家（Agent工程师）调度智能装备（Agent舰队）执行作战任务。&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/SELC-Agent-Era.jpg" alt="面向智能体开发流程"&gt;&lt;/p&gt;
+
+
+
+
+ &lt;h3 id="21-需求驱动阶段人类智慧的顶层设计"&gt;
+ 2.1 需求驱动阶段：人类智慧的顶层设计
+ &lt;/h3&gt;
+
+&lt;p&gt;在环形流程的最上方，**产品经理（PM）**依然是核心大脑。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;核心逻辑&lt;/strong&gt;：从市场和用户反馈中收集碎片化需求，将模糊的市场需求转化为智能体可理解的高质量指令。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;角色转变&lt;/strong&gt;：PM 不再仅仅是写 PRD（需求文档），而是转化为**&amp;ldquo;提示工程师（Prompt Engineer）&amp;rdquo;**。他们负责定义产品的灵魂和边界，用BDD（行为驱动开发）语言编写原子级业务逻辑Spec，将业务规则拆解为&amp;quot;状态-动作-结果&amp;quot;的精确单元。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键产出&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;业务需求（Why）：阐明业务目标和价值主张&lt;/li&gt;
+&lt;li&gt;产品需求（What）：用Given-When-Then结构定义功能、场景、用户体验和验收标准&lt;/li&gt;
+&lt;li&gt;技术约束：定义边界条件和质量要求，供Agent工程师转化为技术实现方案&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+ &lt;h3 id="22-开发测试阶段coding-agent-与工程师的共生"&gt;
+ 2.2 开发测试阶段：Coding Agent 与工程师的共生
+ &lt;/h3&gt;
+
+&lt;p&gt;流程的下一步进入了生产力爆发区。Coding/Dev Agent（编码智能体）承担了80%以上的基础编码、UI/UX原型生成以及自动化单元测试工作。它不仅是工具，更是具备上下文感知能力的&amp;quot;初级程序员&amp;quot;。&lt;/p&gt;</description></item><item><title>第三章：新旧范式的核心差异</title><link>/part1/03-paradigm-differences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part1/03-paradigm-differences/</guid><description>&lt;h1&gt;
+ 第三章：新旧范式的核心差异
  &lt;/h1&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;AOSE继承并升华敏捷理念，核心转变是从&amp;quot;亲手编码&amp;quot;到&amp;quot;定义需求规格与审查AI方案&amp;quot;。价值创造从实现环节前移至定义与验证，要求技术人员培养规格定义与AI审查的新核心能力。&lt;/p&gt;
+&lt;/blockquote&gt;
 
 
 
@@ -220,7 +240,7 @@
  &lt;/h2&gt;
 
 &lt;p&gt;回顾软件工程的发展历程，敏捷开发（Agile）无疑是过去二十年间最具影响力的范式革新。它通过短周期迭代、持续交付和快速响应变化等实践，有效解决了&amp;quot;如何在需求不断变化的环境中保持响应能力&amp;quot;这一核心问题。然而，随着大语言模型和AI Agent技术的成熟，软件工程正面临着一个全新的命题：&amp;ldquo;如何在AI时代重新定义人与机器的分工协作模式&amp;rdquo;。&lt;/p&gt;
-&lt;p&gt;面向意图软件工程（IOSE）正是为回应这一命题而生。需要特别强调的是，IOSE绝非对敏捷理念的否定或颠覆，恰恰相反，它是&lt;strong&gt;在敏捷方法论基础上实现的又一次范式跃迁&lt;/strong&gt;——敏捷解决了&amp;quot;人如何高效协作&amp;quot;的问题，而IOSE将进一步解决&amp;quot;人与AI如何高效协同&amp;quot;的问题。两者是一脉相承、递进演化的关系。&lt;/p&gt;
+&lt;p&gt;面向智能体软件工程（AOSE）正是为回应这一命题而生。需要特别强调的是，AOSE绝非对敏捷理念的否定或颠覆，恰恰相反，它是&lt;strong&gt;在敏捷方法论基础上实现的又一次范式跃迁&lt;/strong&gt;——敏捷解决了&amp;quot;人如何高效协作&amp;quot;的问题，而AOSE将进一步解决&amp;quot;人与AI如何高效协同&amp;quot;的问题。两者是一脉相承、递进演化的关系。&lt;/p&gt;
 
 
 
@@ -238,10 +258,10 @@
  用户故事的演进：从人际沟通到人机协同
  &lt;/h3&gt;
 
-&lt;p&gt;敏捷开发中的用户故事（User Story）作为需求表达的核心单元，在IOSE时代依然保有其价值，但其表达形式和目标受众发生了重要变化。&lt;/p&gt;
+&lt;p&gt;敏捷开发中的用户故事（User Story）作为需求表达的核心单元，在AOSE时代依然保有其价值，但其表达形式和目标受众发生了重要变化。&lt;/p&gt;
 &lt;p&gt;在传统敏捷实践中，用户故事主要服务于团队成员之间的沟通。经典的&amp;quot;作为一个&amp;lt;角色&amp;gt;，我想要&amp;lt;功能&amp;gt;，以便&amp;lt;价值&amp;gt;&amp;ldquo;格式，旨在促进业务人员与技术人员的对话，确保双方对需求有一致的理解。然而，这种自然语言的表达方式往往存在歧义，许多细节需要开发者在实现过程中自行推断。&lt;/p&gt;
-&lt;p&gt;在IOSE范式下，用户故事需要承载更多的使命：它不仅要让人类团队成员理解需求，还要让编码Agent能够准确执行。这就要求我们采用更加结构化、无歧义的表达方式。&lt;strong&gt;行为驱动开发（BDD）的Gherkin语法是一种行之有效的选择&lt;/strong&gt;——它通过&amp;quot;Given-When-Then&amp;quot;的格式描述场景，既保持了自然语言的可读性，又具备了机器可解析的严谨结构。&lt;/p&gt;
-&lt;p&gt;这种演进的关键在于：&lt;strong&gt;产品意图定义&amp;quot;做什么&amp;rdquo;，作为人机共读的需求表达；技术人员据此定义实现规格，指导Agent完成&amp;quot;如何拆解和执行&amp;quot;&lt;/strong&gt;。产品意图面向业务价值，实现规格面向技术执行，两者协作完成从需求到代码的转化。&lt;/p&gt;
+&lt;p&gt;在AOSE范式下，用户故事需要承载更多的使命：它不仅要让人类团队成员理解需求，还要让编码Agent能够准确执行。这就要求我们采用更加结构化、无歧义的表达方式。&lt;strong&gt;行为驱动开发（BDD）的Gherkin语法是一种行之有效的选择&lt;/strong&gt;——它通过&amp;quot;Given-When-Then&amp;quot;的格式描述场景，既保持了自然语言的可读性，又具备了机器可解析的严谨结构。&lt;/p&gt;
+&lt;p&gt;这种演进的关键在于：&lt;strong&gt;产品需求定义&amp;quot;做什么&amp;rdquo;，作为人机共读的需求表达；技术人员据此定义实现规格，指导Agent完成&amp;quot;如何拆解和执行&amp;quot;&lt;/strong&gt;。产品需求面向业务价值，实现规格面向技术执行，两者协作完成从需求到代码的转化。&lt;/p&gt;
 &lt;p&gt;需要强调的是，这里仅作概念性介绍。如何在实践中撰写适合Agent执行的用户故事和验收标准，将在后续的实施落地章节中详细阐述。&lt;/p&gt;
 
 
@@ -263,7 +283,7 @@
  &lt;tr&gt;
  &lt;td&gt;&lt;strong&gt;需求输入&lt;/strong&gt;&lt;/td&gt;
  &lt;td&gt;产品经理编写PRD文档，通过需求评审会讨论确认&lt;/td&gt;
- &lt;td&gt;产品经理定义业务意图和产品意图，技术人员据此指导Agent执行&lt;/td&gt;
+ &lt;td&gt;产品经理定义业务需求和产品需求，技术人员据此指导Agent执行&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;&lt;strong&gt;任务拆解&lt;/strong&gt;&lt;/td&gt;
@@ -301,14 +321,14 @@
  &lt;tr&gt;
  &lt;th&gt;角色&lt;/th&gt;
  &lt;th&gt;敏捷时代的核心能力要求&lt;/th&gt;
- &lt;th&gt;IOSE时代的核心能力要求&lt;/th&gt;
+ &lt;th&gt;AOSE时代的核心能力要求&lt;/th&gt;
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
  &lt;tr&gt;
  &lt;td&gt;&lt;strong&gt;产品经理&lt;/strong&gt;&lt;/td&gt;
  &lt;td&gt;编写PRD、绘制原型、需求沟通协调&lt;/td&gt;
- &lt;td&gt;定义产品意图、设计业务规则、验证价值实现&lt;/td&gt;
+ &lt;td&gt;定义产品需求、设计业务规则、验证价值实现&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;&lt;strong&gt;架构师/技术负责人&lt;/strong&gt;&lt;/td&gt;
@@ -346,14 +366,14 @@
  &lt;tr&gt;
  &lt;th&gt;交付物类型&lt;/th&gt;
  &lt;th&gt;敏捷时代&lt;/th&gt;
- &lt;th&gt;IOSE时代&lt;/th&gt;
+ &lt;th&gt;AOSE时代&lt;/th&gt;
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
  &lt;tr&gt;
  &lt;td&gt;&lt;strong&gt;需求文档&lt;/strong&gt;&lt;/td&gt;
  &lt;td&gt;PRD文档、用户故事列表&lt;/td&gt;
- &lt;td&gt;业务意图 + 产品意图&lt;/td&gt;
+ &lt;td&gt;业务需求 + 产品需求&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
  &lt;td&gt;&lt;strong&gt;设计文档&lt;/strong&gt;&lt;/td&gt;
@@ -372,10 +392,13 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;值得特别关注的是&lt;strong&gt;交付逻辑的升级&lt;/strong&gt;：从&amp;quot;人类阅读文档后手动编码&amp;quot;转变为&amp;quot;编码Agent直接理解意图并生成代码&amp;quot;。这不是简单的文档形式变化，而是围绕编码智能体重构了价值交付链路——业务意图指明方向，产品意图定义功能，技术意图指导Agent完成具体开发。业务意图和产品意图构成需求层面的核心交付物，技术意图则是技术人员指导Agent执行的实现蓝图，使业务价值能够以更快的速度从概念转化为可运行的软件。&lt;/p&gt;</description></item><item><title>第五章：过渡的四个阶段</title><link>/part2/05-four-stages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part2/05-four-stages/</guid><description>&lt;h1&gt;
- 第五章：过渡的四个阶段
+&lt;p&gt;值得特别关注的是&lt;strong&gt;交付逻辑的升级&lt;/strong&gt;：从&amp;quot;人类阅读文档后手动编码&amp;quot;转变为&amp;quot;编码Agent直接理解需求并生成代码&amp;quot;。这不是简单的文档形式变化，而是围绕编码智能体重构了价值交付链路——业务需求指明方向，产品需求定义功能，技术意图指导Agent完成具体开发。业务需求和产品需求构成需求层面的核心交付物，技术意图则是技术人员指导Agent执行的实现蓝图，使业务价值能够以更快的速度从概念转化为可运行的软件。&lt;/p&gt;</description></item><item><title>第四章：过渡的四个阶段</title><link>/part2/04-four-stages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part2/04-four-stages/</guid><description>&lt;h1&gt;
+ 第四章：过渡的四个阶段
  &lt;/h1&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;软件工程向AOSE过渡经历四个不可逆阶段：副驾驶→智能体→自闭环协作→生态自治。2025年正处于Copilot向Agent模式过渡的关键期，人类角色持续向价值链上游迁移，从编码执行者逐步升级为战略决策者。&lt;/p&gt;
+&lt;/blockquote&gt;
 
 
 
@@ -384,7 +407,7 @@
  1 变革不是一蹴而就
  &lt;/h2&gt;
 
-&lt;p&gt;从传统软件工程向面向意图软件工程过渡，不会一夜之间完成。这是一个逐步解构与重构的过程，涉及技术栈升级、组织文化变革和思维模式的转变。&lt;/p&gt;
+&lt;p&gt;从传统软件工程向面向智能体软件工程过渡，不会一夜之间完成。这是一个逐步解构与重构的过程，涉及技术栈升级、组织文化变革和思维模式的转变。&lt;/p&gt;
 &lt;p&gt;理解过渡的阶段特征，有助于我们制定合理的路线图，设定切合实际的期望。&lt;/p&gt;
 
 
@@ -395,15 +418,15 @@
  &lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;时间定位&lt;/strong&gt;：2024-2025（与智能体阶段重叠，逐步弱化）&lt;/p&gt;
-&lt;p&gt;副驾驶阶段以GitHub Copilot、CodeWhisperer等工具的兴起为标志，AI扮演程序员的&amp;quot;结对编程伙伴&amp;quot;，基于局部意图（注释、函数名）完成行级代码补全。&lt;/p&gt;
-&lt;p&gt;然而进入2025年，这一模式正在发生微妙而深刻的变化。随着Cursor Composer、Claude Code、Kiro等Agentic工具的爆发式成熟，开发者发现：&lt;strong&gt;与其让AI在已有代码中填空，不如直接让AI理解完整意图并生成整个功能模块&lt;/strong&gt;。Copilot式的&amp;quot;补全&amp;quot;并未消失，但在越来越多的场景中被更高效的Agent模式所替代。&lt;/p&gt;
+&lt;p&gt;副驾驶阶段以GitHub Copilot、CodeWhisperer等工具的兴起为标志，AI扮演程序员的&amp;quot;结对编程伙伴&amp;quot;，基于局部上下文（注释、函数名）完成行级代码补全。&lt;/p&gt;
+&lt;p&gt;然而进入2025年，这一模式正在发生微妙而深刻的变化。随着Cursor Composer、Claude Code、Kiro等Agentic工具的爆发式成熟，开发者发现：&lt;strong&gt;与其让AI在已有代码中填空，不如直接让AI理解完整需求并生成整个功能模块&lt;/strong&gt;。Copilot式的&amp;quot;补全&amp;quot;并未消失，但在越来越多的场景中被更高效的Agent模式所替代。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-java" data-lang="java"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Copilot时代：人类写注释，AI补全函数&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 计算两个日期之间的天数差&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;long&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;daysBetween&lt;/span&gt;(Date d1, Date d2) {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; ChronoUnit.&lt;span style="color:#a6e22e"&gt;DAYS&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;between&lt;/span&gt;(d1.&lt;span style="color:#a6e22e"&gt;toInstant&lt;/span&gt;(), d2.&lt;span style="color:#a6e22e"&gt;toInstant&lt;/span&gt;());
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 2025年的趋势：人类定义技术意图（实现规格），AI生成完整模块&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 2025年的趋势：人类定义技术需求（实现规格），AI生成完整模块&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// &amp;#34;实现一个提醒调度器，包含扫描、生成、发送三个子任务...&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Agent直接输出：ReminderScheduler.java + ReminderTask.java + 单元测试&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2025年是两个阶段的&lt;strong&gt;重叠过渡期&lt;/strong&gt;——Copilot仍在日常使用，但越来越多的开发任务开始迁移到Agent工具。团队的核心任务不再是&amp;quot;如何用好Copilot&amp;quot;，而是&lt;strong&gt;如何在日常工作中逐步引入Agent工具，从&amp;quot;辅助编码&amp;quot;过渡到&amp;quot;任务委托&amp;quot;&lt;/strong&gt;。&lt;/p&gt;
@@ -424,7 +447,7 @@
  核心特征
  &lt;/h3&gt;
 
-&lt;p&gt;进入2025年，软件工程正在经历从&amp;quot;辅助&amp;quot;到&amp;quot;代理&amp;quot;的关键跃迁。以Cursor Composer、Claude Code、Kiro、GitHub Copilot Workspace为代表的Agentic工具，正在快速替代传统的Copilot模式。这些工具不再满足于&amp;quot;补全代码&amp;quot;，而是能够&lt;strong&gt;理解完整意图、自主规划任务、生成多文件代码、执行测试验证&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;进入2025年，软件工程正在经历从&amp;quot;辅助&amp;quot;到&amp;quot;代理&amp;quot;的关键跃迁。以Cursor Composer、Claude Code、Kiro、GitHub Copilot Workspace为代表的Agentic工具，正在快速替代传统的Copilot模式。这些工具不再满足于&amp;quot;补全代码&amp;quot;，而是能够&lt;strong&gt;理解完整需求、自主规划任务、生成多文件代码、执行测试验证&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;一个典型的2025年工作场景是：开发者打开Cursor Composer，输入&amp;quot;实现基于手机号和验证码的用户登录功能，包含验证码发送、校验、Token生成&amp;quot;，Agent会在几分钟内：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;分析需求并设计技术方案&lt;/li&gt;
@@ -433,7 +456,7 @@
 &lt;li&gt;编写单元测试和集成测试&lt;/li&gt;
 &lt;li&gt;提交完整的合并请求&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;人类的核心工作转变为&lt;strong&gt;审查Agent生成的方案是否符合意图&lt;/strong&gt;，而非亲手编写每一行代码。这种&amp;quot;任务委托&amp;quot;模式正在迅速成为软件开发的主流形态。&lt;/p&gt;
+&lt;p&gt;人类的核心工作转变为&lt;strong&gt;审查Agent生成的方案是否符合需求&lt;/strong&gt;，而非亲手编写每一行代码。这种&amp;quot;任务委托&amp;quot;模式正在迅速成为软件开发的主流形态。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;值得注意的是&lt;/strong&gt;：2025年是Copilot与Agent的&lt;strong&gt;重叠过渡期&lt;/strong&gt;。开发者可能上午还在用Copilot补全函数，下午就切换到Cursor让Agent生成整个模块。但随着Agent工具能力的快速提升，使用Copilot的场景正在逐渐减少。&lt;/p&gt;
 
 
@@ -443,10 +466,136 @@
  协作模式：专业VibeCoding
  &lt;/h3&gt;
 
-&lt;p&gt;在智能体阶段，人机协作的基本单元从函数级跃升至任务级。但与非专业人士随意的&amp;quot;VibeCoding&amp;quot;（即兴编程）不同，&lt;strong&gt;专业工程师与Agent的协作是一种受控的对话式开发&lt;/strong&gt;——看似自然语言交流，实则蕴含着严谨的任务管理和质量控制。&lt;/p&gt;</description></item><item><title>第一章：什么是面向意图软件工程</title><link>/part1/01-what-is-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part1/01-what-is-iose/</guid><description>&lt;h1&gt;
- 第一章：什么是面向意图软件工程
+&lt;p&gt;在智能体阶段，人机协作的基本单元从函数级跃升至任务级。但与非专业人士随意的&amp;quot;VibeCoding&amp;quot;（即兴编程）不同，&lt;strong&gt;专业工程师与Agent的协作是一种受控的对话式开发&lt;/strong&gt;——看似自然语言交流，实则蕴含着严谨的任务管理和质量控制。&lt;/p&gt;</description></item><item><title>第五章：开发流程的重构</title><link>/part2/05-process-reconstruction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part2/05-process-reconstruction/</guid><description>&lt;h1&gt;
+ 第五章：开发流程的重构
  &lt;/h1&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;面向智能体的软件工程将开发核心从&amp;quot;写代码&amp;quot;转移到&amp;quot;描述需求&amp;quot;，核心矛盾从人际沟通成本转变为需求精确性。通过&amp;quot;需求撰写→Agent执行→价值验证&amp;quot;的三阶段闭环，迭代周期从数周压缩至小时级，人类从编码执行者转变为需求架构师和Agent指挥官。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+
+ &lt;h2 id="1-为什么流程必须重构"&gt;
+ 1 为什么流程必须重构
+ &lt;/h2&gt;
+
+&lt;p&gt;当AI Agent从辅助工具演进为执行主体，软件开发的根本性矛盾也随之转移。传统敏捷流程的核心痛点在于&amp;quot;协作中的沟通成本&amp;quot;——需求从业务方传递到产品经理，再传递到技术团队，每一个环节都伴随着信息的损耗和理解的偏差。而在面向智能体的范式下，这一矛盾被转化为&amp;quot;需求的精确性与一致性&amp;quot;问题——只要需求能够被清晰、无歧义地表达，AI Agent就能够忠实地将其转化为可运行的软件，沟通成本几乎降为零。&lt;/p&gt;
+&lt;p&gt;这种根本矛盾的转移，决定了流程必须围绕新的核心要素重新设计。传统的敏捷流程是围绕&amp;quot;人&amp;quot;和&amp;quot;人与人之间的协作&amp;quot;而构建的，它的每一个仪式——需求评审会、每日站会、迭代回顾会——都是为了促进团队成员之间的信息同步和共识达成。然而，在面向智能体的软件工程中，执行主体变成了AI Agent，流程的设计逻辑必须转向如何确保&amp;quot;需求能够被正确理解、严格执行和有效验证&amp;quot;。这意味着，我们需要一套全新的流程框架，围绕&amp;quot;需求&amp;quot;的生命周期——从定义、拆解、执行到验证——来重新组织开发活动。&lt;/p&gt;
+
+
+
+
+ &lt;h2 id="2-新旧流程对比"&gt;
+ 2 新旧流程对比
+ &lt;/h2&gt;
+
+
+
+
+
+ &lt;h3 id="敏捷开发流程回顾"&gt;
+ 敏捷开发流程回顾
+ &lt;/h3&gt;
+
+&lt;p&gt;&lt;img src="/images/SELC-Agile-Era.jpg" alt="敏捷开发流程"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scrum敏捷流程的核心特征&lt;/strong&gt;：以2-4周为固定迭代周期，通过产品待办列表（Product Backlog）管理需求，依赖每日站会、评审会和回顾会等仪式促进团队同步。流程以人为核心，需求从业务方→产品经理→开发团队的逐级传递中易产生信息损耗，编码、测试、评审均需人工逐环节执行，沟通成本高且迭代节奏受限于人类工作时长与上下文切换效率。&lt;/p&gt;
+
+
+
+
+ &lt;h3 id="面向智能体开发流程"&gt;
+ 面向智能体开发流程
+ &lt;/h3&gt;
+
+&lt;p&gt;&lt;img src="/images/SELC-Agent-Era.jpg" alt="面向智能体开发流程"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Agent时代软件工程的核心特征&lt;/strong&gt;：从&amp;quot;纯人工链路&amp;quot;演进为&amp;quot;人机协同的闭环系统&amp;quot;。产品经理转化为&amp;quot;提示工程师&amp;quot;，负责定义产品灵魂和边界，将模糊需求转化为智能体可理解的高质量指令；Coding Agent承担80%以上的基础编码、测试工作，工程师从&amp;quot;写代码&amp;quot;转变为&amp;quot;看代码&amp;quot;，专注架构设计与核心逻辑评审；Ops Agent自主执行发布上线、灰度发布与故障自愈，人类仅作为&amp;quot;最后一道防线&amp;quot;兜底。需求→开发→运维的数据与经验通过Agent快速反馈沉淀，形成持续进化的自动化飞轮。&lt;/p&gt;
+
+
+
+
+ &lt;h2 id="3-流程环节的详细对比"&gt;
+ 3 流程环节的详细对比
+ &lt;/h2&gt;
+
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;维度&lt;/th&gt;
+ &lt;th&gt;敏捷开发&lt;/th&gt;
+ &lt;th&gt;面向智能体开发&lt;/th&gt;
+ &lt;th&gt;核心差异&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;核心单元&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;用户故事&lt;/td&gt;
+ &lt;td&gt;业务需求+产品需求+技术需求&lt;/td&gt;
+ &lt;td&gt;从&amp;quot;人际沟通媒介&amp;quot;进化为&amp;quot;可被AI Agent理解的产品需求与技术约束&amp;quot;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;迭代启动&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;故事编写与估算&lt;/td&gt;
+ &lt;td&gt;需求撰写&lt;/td&gt;
+ &lt;td&gt;从&amp;quot;集体讨论&amp;quot;变为&amp;quot;需求撰写&amp;quot;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;迭代执行&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;任务认领与人工编码&lt;/td&gt;
+ &lt;td&gt;Agent基于需求自主执行&lt;/td&gt;
+ &lt;td&gt;从&amp;quot;人的编码&amp;quot;变为&amp;quot;人的指挥与Agent执行&amp;quot;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;测试验证&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;测试用例编写与执行&lt;/td&gt;
+ &lt;td&gt;基于验收规格的自动化验证&lt;/td&gt;
+ &lt;td&gt;从&amp;quot;发现缺陷&amp;quot;变为&amp;quot;验证需求满足度&amp;quot;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;代码审查&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;人工代码审查&lt;/td&gt;
+ &lt;td&gt;Agent自检 + 人类抽查&lt;/td&gt;
+ &lt;td&gt;从&amp;quot;人工逐行审查&amp;quot;变为&amp;quot;Agent自动化测试&amp;quot;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;上线验证&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;功能演示&lt;/td&gt;
+ &lt;td&gt;上线与价值验证&lt;/td&gt;
+ &lt;td&gt;从&amp;quot;技术验收&amp;quot;变为&amp;quot;商业价值验证&amp;quot;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;回顾会议&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;反思流程与人&lt;/td&gt;
+ &lt;td&gt;反思需求质量与约束完备性&lt;/td&gt;
+ &lt;td&gt;从&amp;quot;优化人的协作&amp;quot;变为&amp;quot;优化需求表达质量&amp;quot;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+ &lt;h2 id="4-面向智能体的核心流程环节"&gt;
+ 4 面向智能体的核心流程环节
+ &lt;/h2&gt;
+
+
+
+
+
+ &lt;h3 id="需求撰写与迭代requirements-authoring--iteration"&gt;
+ 需求撰写与迭代（Requirements Authoring &amp;amp; Iteration）
+ &lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;目的&lt;/strong&gt;：产品经理定义清晰的产品需求，Agent在理解过程中逐步澄清需求并迭代技术方案&lt;/p&gt;</description></item><item><title>第一章：什么是面向智能体软件工程</title><link>/part1/01-what-is-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part1/01-what-is-iose/</guid><description>&lt;h1&gt;
+ 第一章：什么是面向智能体软件工程
+ &lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;当AI智能体成为代码的实际生产者，软件开发的核心矛盾已从&amp;quot;如何编写代码&amp;quot;转向&amp;quot;如何调度智能体&amp;quot;。人类从编码者转变为调度者与约束定义者，核心价值回归到定义&amp;quot;做什么&amp;quot;与&amp;quot;为什么做&amp;quot;。&lt;/p&gt;
+&lt;/blockquote&gt;
 
 
 
@@ -455,116 +604,124 @@
  1 一个核心命题
  &lt;/h2&gt;
 
-&lt;p&gt;软件工程正在经历一场深刻的范式转移，未来的软件开发将不再是围绕代码展开的手工技艺，而是一种全新的工程形态——&lt;strong&gt;面向意图软件工程（Intent-Oriented Software Engineering，简称 IOSE）&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;所谓&amp;quot;面向意图&amp;quot;，其本质在于将大模型智能体（Agent）引入软件生产的核心环节，让它们替代人类程序员、测试人员乃至架构师，承担起传统开发流程中大量重复性的实现工作——从详细设计文档的撰写，到具体代码的编写，再到测试用例的构造、自动化脚本的搭建以及单元测试的执行。在这一范式下，只要人类能够准确而完整地表达意图，大模型便能够以极高的效率将其转化为可运行的软件系统。&lt;/p&gt;
-&lt;p&gt;为了更好地理解这一范式的革命性意义，我们可以将其与软件工程史上的另一次重大范式转移——&lt;strong&gt;面向对象编程（OOP）&lt;/strong&gt;——进行对比。&lt;strong&gt;面向对象编程的本质是为了降低编程的复杂度&lt;/strong&gt;，通过封装、继承、多态等机制，帮助人类开发者管理日益复杂的代码结构，让&amp;quot;人理解代码&amp;quot;变得更加容易。而&lt;strong&gt;面向意图软件工程的本质，则是大模型Agent效率提升给软件工程带来的颠覆性变化&lt;/strong&gt;——当AI能够以极高的效率将人类意图转化为可执行代码时，软件开发的核心矛盾已经从&amp;quot;如何让人类更好地编写和理解代码&amp;quot;转变为&amp;quot;如何让人类更准确地表达意图，并由AI高效实现&amp;quot;。&lt;/p&gt;
-&lt;p&gt;需要强调的是，这并非一份针对程序员群体的替代宣言，而是对整个软件工程本质的深刻重新审视。当人工智能已经能够高效地处理&amp;quot;如何做&amp;quot;（How）的技术细节时，人类的核心价值将不可避免地回归到一个更本质的层面——定义&amp;quot;做什么&amp;quot;（What）以及理解&amp;quot;为什么做&amp;quot;（Why）。&lt;/p&gt;
+&lt;p&gt;软件工程正在经历一场深刻的范式转移，未来的软件开发将不再是围绕代码展开的手工技艺，而是一种全新的工程形态——&lt;strong&gt;面向智能体软件工程（Agent-Oriented Software Engineering，简称 AOSE）&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这场变革的核心在于：&lt;strong&gt;智能体（Agent）正在成为软件生产的中心&lt;/strong&gt;。传统软件开发中，人类程序员是代码的直接生产者；而在AOSE范式中，大模型智能体成为代码的实际生成者，人类则转变为智能体的调度者和约束定义者。&lt;/p&gt;
+&lt;p&gt;为了更好地理解这一范式的革命性意义，我们可以将其与软件工程史上的另一次重大范式转移——&lt;strong&gt;面向对象编程（OOP）&lt;/strong&gt;——进行对比。&lt;strong&gt;面向对象编程的本质是为了降低编程的复杂度&lt;/strong&gt;，通过封装、继承、多态等机制，帮助人类开发者管理日益复杂的代码结构，让&amp;quot;人理解代码&amp;quot;变得更加容易。而&lt;strong&gt;面向智能体软件工程的本质，则是大模型Agent能力提升给软件工程带来的颠覆性变化&lt;/strong&gt;——当AI智能体能够以极高的效率将人类需求转化为可执行代码时，软件开发的核心矛盾已经从&amp;quot;如何让人类更好地编写和理解代码&amp;quot;转变为&amp;quot;如何让人类更有效地调度智能体，并由智能体高效实现&amp;quot;。&lt;/p&gt;
+&lt;p&gt;需要强调的是，这并非一份针对程序员群体的替代宣言，而是对整个软件工程本质的深刻重新审视。当AI智能体已经能够高效地处理&amp;quot;如何做&amp;quot;（How）的技术细节时，人类的核心价值将不可避免地回归到一个更本质的层面——定义&amp;quot;做什么&amp;quot;（What）以及理解&amp;quot;为什么做&amp;quot;（Why）。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;当AI能够高效执行&amp;quot;如何做&amp;quot;时，人类的核心价值将回归到&amp;quot;做什么&amp;quot;和&amp;quot;为什么做&amp;quot;。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;当AI智能体能够高效执行&amp;quot;如何做&amp;quot;时，人类的核心价值将回归到&amp;quot;做什么&amp;quot;和&amp;quot;为什么做&amp;quot;。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;需要进一步强调的是，&lt;strong&gt;软件工程的复杂性并未消失，只是转移了&lt;/strong&gt;。大模型智能体就像一台拥有无限马力的代码生成引擎——如果你将它装在一辆没有方向盘和刹车的车上，它只会以极快的速度为你堆砌出一座&amp;quot;屎山代码&amp;quot;。要使用智能体构建稳固的大型软件系统，人类开发者的角色必须从&amp;quot;泥瓦匠&amp;quot;（写代码）彻底转变为&lt;strong&gt;调度者&lt;/strong&gt;（指挥）、&lt;strong&gt;建筑师&lt;/strong&gt;（定边界）和&lt;strong&gt;监理&lt;/strong&gt;（验质量）。这种转变不是对软件工程复杂性的回避，而是对复杂性的重新分配和管理方式的升级。&lt;/p&gt;
 
 
 
 
- &lt;h2 id="2-意图的分层"&gt;
- 2 意图的分层
+ &lt;h2 id="2-智能体变革的核心"&gt;
+ 2 智能体：变革的核心
  &lt;/h2&gt;
 
-&lt;p&gt;在面向意图的软件工程范式中，&amp;ldquo;意图&amp;quot;绝非一段孤立的自然语言指令，而是一个分层的语义体系。我们将其划分为三个层次：业务意图、产品意图和技术意图。其中，&lt;strong&gt;产品意图和技术意图是这场变革中最核心的关注点&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;在面向智能体软件工程中，&lt;strong&gt;智能体（Agent）是这场变革的真正核心&lt;/strong&gt;。智能体不仅仅是代码生成工具，而是具备自主性、目标导向性和环境感知能力的软件实体。&lt;/p&gt;
 
 
 
 
- &lt;h3 id="业务意图"&gt;
- 业务意图
+ &lt;h3 id="智能体的本质特征"&gt;
+ 智能体的本质特征
  &lt;/h3&gt;
 
-&lt;p&gt;业务意图聚焦于宏观的商业目标，表达组织希望达成的价值诉求。它回答的是&amp;quot;为什么要做&amp;quot;的问题——比如&amp;quot;提升会员续费率&amp;rdquo;、&amp;ldquo;降低客户流失&amp;rdquo;、&amp;ldquo;进入新市场&amp;rdquo;。这一层次的意图通常来自高层管理者或业务负责人，他们为整个组织指明方向。在IOSE变革中，业务意图相对稳定，更多作为背景存在，而不是变革的核心操作对象。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;自主性&lt;/strong&gt;：智能体能够根据目标自主决策和执行任务，不需要人类一步步指导&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;目标导向性&lt;/strong&gt;：智能体以完成特定目标为导向，能够理解任务意图并规划实现路径&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;环境感知&lt;/strong&gt;：智能体能够感知开发环境、代码库状态、团队规范等上下文信息&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;协作能力&lt;/strong&gt;：多个智能体可以协同工作，分工合作完成复杂任务&lt;/li&gt;
+&lt;/ol&gt;
 
 
 
 
- &lt;h3 id="产品意图"&gt;
- 产品意图
+ &lt;h3 id="智能体在软件生产中的角色"&gt;
+ 智能体在软件生产中的角色
  &lt;/h3&gt;
 
-&lt;p&gt;产品意图是连接业务与技术的桥梁，它回答&amp;quot;做什么&amp;quot;的问题。当业务意图说&amp;quot;提升会员续费率&amp;quot;时，产品意图将其转化为具体的产品方案：&amp;ldquo;为付费用户增加权益过期提醒功能，通过App推送和邮件多渠道触达&amp;rdquo;。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;产品意图是这场变革的核心战场之一&lt;/strong&gt;。在IOSE范式下，产品经理不再只是写PRD、画原型，而是需要定义结构化的产品意图——明确功能的目标用户、使用场景、价值主张、验收标准。这种结构化的产品意图可以直接驱动AI生成可运行的软件，产品人员由此获得了直接创造数字产品的能力，不再受限于&amp;quot;会不会写代码&amp;quot;。&lt;/p&gt;
+&lt;p&gt;在AOSE范式中，智能体以多种形态参与软件生产的各个环节。这些智能体不仅仅是功能性的工具，而是具备不同能力和交互方式的协作伙伴：&lt;/p&gt;
 
 
 
 
- &lt;h3 id="技术意图"&gt;
- 技术意图
- &lt;/h3&gt;
+ &lt;h4 id="1-集成开发环境中的智能体ide-agents"&gt;
+ 1. 集成开发环境中的智能体（IDE Agents）
+ &lt;/h4&gt;
 
-&lt;p&gt;技术意图回答&amp;quot;怎么做才能符合要求&amp;quot;的问题，它定义了实现产品意图时必须遵循的技术边界——性能指标、安全规范、架构约束、质量标准等。比如&amp;quot;接口响应时间控制在50毫秒以内&amp;quot;、&amp;ldquo;所有API必须经过OAuth2.0认证&amp;rdquo;。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;技术意图是这场变革的另一个核心战场&lt;/strong&gt;。开发者从&amp;quot;亲自编写每一行代码&amp;quot;转向&amp;quot;定义技术意图并审查AI的实现&amp;quot;。技术意图的质量直接决定了AI生成代码的可靠性。当开发者将精力从编码细节转移到约束设计时，他们实际上在从事更高层次的系统架构工作——定义规则而非执行规则。&lt;/p&gt;
-&lt;p&gt;这三个层次形成自然的递进关系：业务意图指明方向，产品意图定义功能，技术意图划定边界。&lt;strong&gt;在这场IOSE变革中，产品意图和技术意图是人类与AI协作的主要界面&lt;/strong&gt;，是我们最需要投入精力去打磨和积累的核心资产。&lt;/p&gt;
-
-
-
-
- &lt;h2 id="3-面向意图与面向代码的范式对比"&gt;
- 3 面向意图与面向代码的范式对比
- &lt;/h2&gt;
-
-&lt;p&gt;为了更清晰地理解面向意图软件工程所带来的变革，让我们将它与传统的面向代码开发进行一个全面对比：&lt;/p&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;维度&lt;/th&gt;
- &lt;th&gt;面向代码（传统范式）&lt;/th&gt;
- &lt;th&gt;面向意图（新兴范式）&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;核心活动&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;开发者花费大量时间编写、调试和优化代码&lt;/td&gt;
- &lt;td&gt;将主要精力投入到意图的定义、拆解和验证上&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;人机分工&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;人类负责编写代码，机器仅负责编译和执行&lt;/td&gt;
- &lt;td&gt;人类专注于定义意图，由AI负责生成具体代码&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;思维重心&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;聚焦于How——如何实现某个功能或解决某个技术问题&lt;/td&gt;
- &lt;td&gt;聚焦于What &amp;amp; Why——需要什么功能、为什么要做这个功能&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;产出形态&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;以代码文件为主要产出，文档往往滞后或缺失&lt;/td&gt;
- &lt;td&gt;结构化意图成为核心资产，代码作为意图的派生产物自动生成&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;验证方式&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;依赖人工测试和Code Review来保证质量&lt;/td&gt;
- &lt;td&gt;通过意图对齐验证和自动化测试来确保实现符合预期&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;这场范式转移的深刻之处在于：它不仅仅是工具的升级，更是软件工程本质的重新定义。在面向意图的时代，代码不再是工程活动的中心，而是意图的瞬时表达形式——就像编译器将高级语言翻译成机器码一样，智能体将人类的意图&amp;quot;编译&amp;quot;成可执行的代码。&lt;/p&gt;
-
-
-
-
- &lt;h2 id="4-一个形象的比喻"&gt;
- 4 一个形象的比喻
- &lt;/h2&gt;
-
-&lt;p&gt;如果要用一个形象的比喻来理解这两种范式的差异，音乐创作或许是一个很好的类比。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;传统的软件开发过程，就像亲手组建并训练一支乐队&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;这类智能体深度集成在开发环境中，能够理解代码上下文并提供实时协助：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;你需要亲自招募并协调吉他手、鼓手、键盘手和主唱等不同角色&lt;/li&gt;
-&lt;li&gt;所有成员都要仔细研读同一份乐谱（需求文档），试图理解其中的细微差别&lt;/li&gt;
-&lt;li&gt;大家听从指挥（Scrum Master）的统一调度，按照固定的节奏推进&lt;/li&gt;
-&lt;li&gt;通过一次又一次的反复排练（迭代开发）来磨合默契，消除分歧&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Cursor&lt;/strong&gt;：作为新一代AI原生IDE，Cursor将智能体深度集成到编码体验中。它能够理解整个项目的上下文，进行跨文件的代码修改，甚至根据自然语言描述重构整个代码库。Cursor智能体的核心能力在于&lt;strong&gt;上下文感知&lt;/strong&gt;和&lt;strong&gt;大规模代码操作&lt;/strong&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Windsurf&lt;/strong&gt;：专注于代码生成的智能体，特别擅长根据现有代码模式和团队规范生成符合要求的代码。Windsurf智能体的特点是&lt;strong&gt;模式识别&lt;/strong&gt;和&lt;strong&gt;规范遵从&lt;/strong&gt;，能够学习团队的编码风格并保持一致。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Claude Code&lt;/strong&gt;：作为命令行工具中的智能体，Claude Code展示了智能体如何在不依赖图形界面的情况下完成复杂开发任务。它通过自然语言交互理解开发意图，执行文件操作、代码生成、测试运行等任务，体现了&lt;strong&gt;任务导向&lt;/strong&gt;和&lt;strong&gt;自动化执行&lt;/strong&gt;的能力。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;这个过程充满了人际协调的复杂性，每个环节的摩擦都会消耗大量的时间和精力。&lt;/p&gt;</description></item><item><title>关于本书</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;h1&gt;
- 关于《面向意图软件工程》
+
+
+
+
+ &lt;h4 id="2-平台化智能体platform-agents"&gt;
+ 2. 平台化智能体（Platform Agents）
+ &lt;/h4&gt;
+
+&lt;p&gt;这类智能体提供更完整的开发平台，支持端到端的软件开发流程：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kiro&lt;/strong&gt;：作为一个完整的开发平台，Kiro将需求、设计、开发、测试、部署等环节通过智能体连接起来。Kiro智能体的核心价值在于&lt;strong&gt;流程整合&lt;/strong&gt;和&lt;strong&gt;规格驱动开发&lt;/strong&gt;——它能够将结构化的需求规格自动转化为可执行的开发任务，并协调多个智能体协作完成。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Replit&lt;/strong&gt;：云端开发环境中的智能体，提供从想法到部署的一站式服务。Replit智能体特别擅长&lt;strong&gt;快速原型构建&lt;/strong&gt;和&lt;strong&gt;协作开发&lt;/strong&gt;，降低了软件开发的门槛。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+ &lt;h4 id="智能体的共同特征"&gt;
+ 智能体的共同特征
+ &lt;/h4&gt;
+
+&lt;p&gt;尽管形态各异，这些智能体都具备以下共同特征：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;上下文理解&lt;/strong&gt;：能够理解代码库、项目结构、团队规范等上下文信息&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自主执行&lt;/strong&gt;：在明确目标后能够自主规划并执行任务&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;持续学习&lt;/strong&gt;：能够从历史任务中学习，不断提升执行效率和质量&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;协作能力&lt;/strong&gt;：多个智能体可以协同工作，分工完成复杂任务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在AOSE范式中，人类开发者不再需要掌握所有技术细节，而是需要学会&lt;strong&gt;选择合适的智能体&lt;/strong&gt;、&lt;strong&gt;定义清晰的任务&lt;/strong&gt;、&lt;strong&gt;设定合理的约束&lt;/strong&gt;，并&lt;strong&gt;验证智能体的输出&lt;/strong&gt;。这种转变将开发者的核心能力从&amp;quot;编码实现&amp;quot;转向&amp;quot;智能体调度与质量管理&amp;quot;。&lt;/p&gt;
+
+
+
+
+ &lt;h3 id="人类角色的转变"&gt;
+ 人类角色的转变
+ &lt;/h3&gt;
+
+&lt;p&gt;随着智能体成为软件生产的核心，人类角色发生了根本性转变：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;从编码者到调度者&lt;/strong&gt;：人类不再亲自编写每一行代码，而是调度智能体完成编码任务&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;从实现者到约束定义者&lt;/strong&gt;：人类的主要工作变为定义智能体的行为边界和约束条件&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;从执行者到验证者&lt;/strong&gt;：人类负责验证智能体生成结果是否符合预期目标&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这种转变不是对人类价值的否定，而是对人类价值的重新定位——将人类从重复性的技术实现中解放出来，专注于更高层次的创造性工作。&lt;/p&gt;
+
+
+
+
+ &lt;h2 id="3-面向智能体与面向代码的范式对比"&gt;
+ 3 面向智能体与面向代码的范式对比
+ &lt;/h2&gt;
+
+&lt;p&gt;为了更清晰地理解面向智能体软件工程所带来的变革，让我们将它与传统的面向代码开发进行一个全面对比：&lt;/p&gt;</description></item><item><title>关于本书</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;h1&gt;
+ 关于《面向智能体软件工程》
  &lt;/h1&gt;
 
 
@@ -575,8 +732,8 @@
  本书简介
  &lt;/h2&gt;
 
-&lt;p&gt;《面向意图软件工程》是一本探讨AI时代软件工程范式转变的开源电子书。当大模型Agent具备强大的执行能力后，人类的核心价值将从&amp;quot;如何实现（How）&amp;ldquo;彻底向上跃迁为&amp;quot;实现什么（What）&amp;ldquo;和&amp;quot;为什么实现（Why）&amp;quot;。&lt;/p&gt;
-&lt;p&gt;本书系统探讨从传统软件工程向&amp;quot;面向意图软件工程&amp;quot;过渡的完整路径，为技术团队提供切实可行的转型方案。&lt;/p&gt;
+&lt;p&gt;《面向智能体软件工程》是一本探讨AI时代软件工程范式转变的开源电子书。当大模型Agent具备强大的执行能力后，人类的核心价值将从&amp;quot;如何实现（How）&amp;ldquo;彻底向上跃迁为&amp;quot;实现什么（What）&amp;ldquo;和&amp;quot;为什么实现（Why）&amp;quot;。&lt;/p&gt;
+&lt;p&gt;本书系统探讨从传统软件工程向&amp;quot;面向智能体软件工程&amp;quot;过渡的完整路径，为技术团队提供切实可行的转型方案。&lt;/p&gt;
 
 
 
@@ -586,9 +743,9 @@
  &lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;意图分层&lt;/strong&gt;：业务意图定义&amp;quot;要什么&amp;rdquo;，技术意图定义&amp;quot;边界在哪里&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;范式转变&lt;/strong&gt;：从&amp;quot;写代码&amp;quot;到&amp;quot;定义意图&amp;quot;的根本转变&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;人机协作&lt;/strong&gt;：人类负责意图，AI负责实现&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;智能体协作&lt;/strong&gt;：人类负责定义目标，智能体负责执行实现&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;范式转变&lt;/strong&gt;：从&amp;quot;写代码&amp;quot;到&amp;quot;调度智能体&amp;quot;的根本转变&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;人机协作&lt;/strong&gt;：人类聚焦意图定义，智能体负责代码实现&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -598,7 +755,7 @@
  关于作者
  &lt;/h2&gt;
 
-&lt;p&gt;本书由 IOSE 团队编写维护，欢迎通过 GitHub 参与贡献。&lt;/p&gt;
+&lt;p&gt;本书由 AOSE 团队编写维护，欢迎通过 GitHub 参与贡献。&lt;/p&gt;
 
 
 
@@ -608,7 +765,7 @@
  &lt;/h2&gt;
 
 &lt;p&gt;本书采用开源协议发布，欢迎自由阅读、分享和贡献。&lt;/p&gt;</description></item><item><title>阅读本书</title><link>/read/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/read/</guid><description>&lt;h1&gt;
- 面向意图软件工程
+ 面向智能体软件工程
  &lt;/h1&gt;
 
 
@@ -620,7 +777,7 @@
  &lt;/h2&gt;
 
 &lt;p&gt;这是一本关于软件工程未来形态的系统指南。当大模型 Agent 具备强大的执行能力后，人类的核心价值将从&amp;quot;如何实现（How）&amp;ldquo;彻底向上跃迁为&amp;quot;实现什么（What）&amp;ldquo;和&amp;quot;为什么实现（Why）&amp;quot;。&lt;/p&gt;
-&lt;p&gt;本书系统探讨了从传统软件工程向&amp;quot;面向意图软件工程&amp;quot;过渡的完整路径。无论你是技术管理者、架构师、开发者，还是创业者，都能从中获得关于未来软件工程的深刻洞见和实操指南。&lt;/p&gt;
+&lt;p&gt;本书系统探讨了从传统软件工程向&amp;quot;面向智能体软件工程&amp;quot;过渡的完整路径。无论你是技术管理者、架构师、开发者，还是创业者，都能从中获得关于未来软件工程的深刻洞见和实操指南。&lt;/p&gt;
 
 
 
@@ -632,7 +789,7 @@
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;渐进式阅读&lt;/strong&gt;：本书按&amp;quot;理解→过渡→实践→展望&amp;quot;的递进逻辑编排，建议按顺序阅读&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;结合实践&lt;/strong&gt;：每章配有实操模板和检查清单，建议边读边在团队中尝试&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;持续迭代&lt;/strong&gt;：面向意图软件工程仍在快速发展，保持开放心态，持续调整认知&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;持续迭代&lt;/strong&gt;：面向智能体软件工程仍在快速发展，保持开放心态，持续调整认知&lt;/li&gt;
 &lt;/ol&gt;
 
 
@@ -701,7 +858,7 @@
 
 
 
-&lt;a href="/part1/01-what-is-iose/" class="chapter-link-published"&gt;第一章：什么是面向意图软件工程&lt;/a&gt;
+&lt;a href="/part1/01-what-is-iose/" class="chapter-link-published"&gt;第一章：什么是面向智能体软件工程&lt;/a&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
@@ -737,7 +894,7 @@
 
 
 
-&lt;a href="/part1/03-intent-layers/" class="chapter-link-published"&gt;第三章：意图的分层架构&lt;/a&gt;
+&lt;a href="/part1/03-paradigm-differences/" class="chapter-link-published"&gt;第三章：新旧范式的核心差异&lt;/a&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
@@ -755,7 +912,7 @@
 
 
 
-&lt;a href="/part1/04-paradigm-differences/" class="chapter-link-published"&gt;第四章：新旧范式的核心差异&lt;/a&gt;
+&lt;a href="/part2/04-four-stages/" class="chapter-link-published"&gt;第四章：过渡的四个阶段&lt;/a&gt;
 
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -783,7 +940,25 @@
 
 
 
-&lt;a href="/part2/05-four-stages/" class="chapter-link-published"&gt;第五章：过渡的四个阶段&lt;/a&gt;
+&lt;a href="/part2/05-process-reconstruction/" class="chapter-link-published"&gt;第五章：开发流程的重构&lt;/a&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a href="/part2/06-team-transformation/" class="chapter-link-published"&gt;第六章：从传统团队到原子团队&lt;/a&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
@@ -802,7 +977,7 @@
 
 
 &lt;span class="chapter-link-unpublished"&gt;
- 第六章：开发流程的重构
+ 第七章：新的文档范式
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
 &lt;/span&gt;
 
@@ -823,49 +998,7 @@
 
 
 &lt;span class="chapter-link-unpublished"&gt;
- 第七章：从传统团队到原子团队
- &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
-&lt;/span&gt;
-
-&lt;/li&gt;
-&lt;li&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;span class="chapter-link-unpublished"&gt;
- 第八章：新的文档范式
- &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
-&lt;/span&gt;
-
-&lt;/li&gt;
-&lt;li&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;span class="chapter-link-unpublished"&gt;
- 第九章：Agent 行动规约
+ 第八章：Agent 行动规约
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
 &lt;/span&gt;
 
@@ -896,7 +1029,7 @@
 
 
 &lt;span class="chapter-link-unpublished"&gt;
- 第十章：管理者如何引导团队变革
+ 第九章：管理者如何引导团队变革
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
 &lt;/span&gt;
 
@@ -917,7 +1050,7 @@
 
 
 &lt;span class="chapter-link-unpublished"&gt;
- 第十一章：软件工程师进化为 Agent 工程师
+ 第十章：软件工程师进化为 Agent 工程师
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
 &lt;/span&gt;
 
@@ -938,7 +1071,7 @@
 
 
 &lt;span class="chapter-link-unpublished"&gt;
- 第十二章：产品经理的进化
+ 第十一章：产品经理的进化
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
 &lt;/span&gt;
 
@@ -959,7 +1092,7 @@
 
 
 &lt;span class="chapter-link-unpublished"&gt;
- 第十三章：测试工程师与运维工程师的转型
+ 第十二章：测试工程师与运维工程师的转型
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
 &lt;/span&gt;
 
@@ -980,7 +1113,7 @@
 
 
 &lt;span class="chapter-link-unpublished"&gt;
- 第十四章：遗留系统的迁移策略
+ 第十三章：遗留系统的迁移策略
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
 &lt;/span&gt;
 
@@ -1001,7 +1134,7 @@
 
 
 &lt;span class="chapter-link-unpublished"&gt;
- 第十五章：隐性知识的捕获与传承
+ 第十四章：隐性知识的捕获与传承
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
 &lt;/span&gt;
 
@@ -1032,7 +1165,7 @@
 
 
 &lt;span class="chapter-link-unpublished"&gt;
- 第十六章：新软件工程领域的创业机会
+ 第十五章：新软件工程领域的创业机会
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
 &lt;/span&gt;
 
@@ -1053,7 +1186,7 @@
 
 
 &lt;span class="chapter-link-unpublished"&gt;
- 第十七章：2050 年的回望与警示
+ 第十六章：2050 年的回望与警示
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
 &lt;/span&gt;
 
@@ -1074,7 +1207,7 @@
 
 
 &lt;span class="chapter-link-unpublished"&gt;
- 第十八章：未来依然有价值的书
+ 第十七章：未来依然有价值的书
  &lt;span class="chapter-status-badge"&gt;撰写中&lt;/span&gt;
 &lt;/span&gt;
 

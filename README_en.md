@@ -1,37 +1,38 @@
-# Intent-Oriented Software Engineering
+# Agent-Oriented Software Engineering
 
 > When large model agents possess powerful execution capabilities, human core value will completely shift from "How to implement" to "What to implement" and "Why implement it."
 
 ## About This Book
 
-*Intent-Oriented Software Engineering* (IOSE) is a systematic guide and open-source e-book on the paradigm shift of software engineering in the AI era. This book systematically explores the complete path of transition from traditional software engineering to Intent-Oriented Software Engineering and provides practical transformation guidance for technical teams. Whether you are a technical manager, architect, developer, or entrepreneur, you can gain profound insights and practical guidelines about the future of software engineering from this book.
+*Agent-Oriented Software Engineering* (AOSE) is a systematic guide and open-source e-book on the paradigm shift of software engineering in the AI era. This book systematically explores the complete path of transition from traditional software engineering to Agent-Oriented Software Engineering and provides practical transformation guidance for technical teams. Whether you are a technical manager, architect, developer, or entrepreneur, you can gain profound insights and practical guidelines about the future of software engineering from this book.
 
 ## Reading Suggestions
 
 1. **Progressive Reading**: This book is organized in a progressive logic of "Understanding → Transition → Practice → Outlook"; it is recommended to read in order.
 2. **Combine with Practice**: Each chapter comes with practical templates and checklists; it is recommended to try them out in your team while reading.
-3. **Continuous Iteration**: Intent-oriented software engineering is still rapidly evolving; maintain an open mindset and continuously adjust your understanding.
+3. **Continuous Iteration**: Agent-oriented software engineering is still rapidly evolving; maintain an open mindset and continuously adjust your understanding.
 
 ## Core Concepts Overview
 
 | Concept | Definition |
 |---------|------------|
-| **Intent** | Clear expression of "what is wanted" and "why," rather than "how to do it" |
+| **Intent** | Structured description of requirements, serving as the communication medium between humans and agents |
 | **Business Intent** | Top-level business goals, describing value propositions and business logic |
 | **Constraint Network** | Five-dimensional quality space from passive documentation to executable code (architecture, complexity, security, performance, maintainability), serving as the "quality contract" for human-AI collaboration and the "real-time textbook" for agents |
 | **Agent Engineer** | Technical role evolving from the execution layer to the orchestration layer, acting as the "chief architect" commanding agent clusters to deliver complex systems |
 
 ## Core Perspectives
 
-- **Intent Layering**: Business intent defines "what is wanted"; technical intent defines "where the boundaries are."
-- **Paradigm Shift**: A fundamental shift from "writing code" to "defining intent."
-- **Human-AI Collaboration**: Humans are responsible for intent; AI is responsible for implementation.
+- **Agent as Core**: The center of this transformation is the capability and collaboration of AI agents.
+- **Intent as Tool**: Intent is a structured expression of requirements, the medium for human-agent interaction, but not the core concept.
+- **Paradigm Shift**: A fundamental shift from "writing code" to "orchestrating agents."
+- **Human-AI Collaboration**: Humans focus on intent definition; agents handle implementation.
 
 ## Table of Contents
 
 ### Part I: Foundational Concepts
 
-- Chapter 1: What is Intent-Oriented Software Engineering
+- Chapter 1: What is Agent-Oriented Software Engineering
 - Chapter 2: Why This Transformation is Necessary
 - Chapter 3: Layered Architecture of Intent
 - Chapter 4: Core Differences Between Old and New Paradigms
@@ -61,7 +62,7 @@
 
 ## About the Authors
 
-This book is written and maintained by the IOSE team. Contributions via GitHub are welcome.
+This book is written and maintained by the AOSE team. Contributions via GitHub are welcome.
 
 ## License
 

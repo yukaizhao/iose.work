@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Part2s on Intent-Oriented Software Engineering</title><link>/en/part2/</link><description>Recent content in Part2s on Intent-Oriented Software Engineering</description><generator>Hugo</generator><language>en</language><atom:link href="/en/part2/index.xml" rel="self" type="application/rss+xml"/><item><title>Chapter 5: Four Stages of Transition</title><link>/en/part2/05-four-stages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part2/05-four-stages/</guid><description>&lt;h1&gt;
- Chapter 5: Four Stages of Transition
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Part2s on Agent-Oriented Software Engineering</title><link>/en/part2/</link><description>Recent content in Part2s on Agent-Oriented Software Engineering</description><generator>Hugo</generator><language>en</language><atom:link href="/en/part2/index.xml" rel="self" type="application/rss+xml"/><item><title>Chapter 4: Four Stages of Transition</title><link>/en/part2/04-four-stages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part2/04-four-stages/</guid><description>&lt;h1&gt;
+ Chapter 4: Four Stages of Transition
  &lt;/h1&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;The transition from traditional software engineering to AOSE progresses through four irreversible stages: Copilot Era → Agentic Era → Autonomous Collaboration Era → Autonomous Ecosystem Era. 2025 marks the critical transition period from Copilot to Agent modes, with human roles continuously migrating upstream in the value chain—from coding executors to strategic decision-makers.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 
 
@@ -10,14 +13,26 @@
  1 Transformation Is Not Instantaneous
  &lt;/h2&gt;
 
-&lt;p&gt;The transition from traditional software engineering to Intent-Oriented Software Engineering will not happen overnight. It is a gradual process of deconstruction and reconstruction, involving technology stack upgrades, organizational culture transformation, and shifts in mindset.&lt;/p&gt;
-&lt;p&gt;Understanding the characteristics of each transition stage helps us develop reasonable roadmaps and set realistic expectations.&lt;/p&gt;
+&lt;p&gt;The transition from traditional software engineering to Agent-Oriented Software Engineering will not happen overnight. It is a gradual process of deconstruction and reconstruction, involving technology stack upgrades, organizational culture transformation, and shifts in mindset.&lt;/p&gt;</description></item><item><title>Chapter 5: Development Process Reconstruction</title><link>/en/part2/05-process-reconstruction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part2/05-process-reconstruction/</guid><description>&lt;h1&gt;
+ Chapter 5: Development Process Reconstruction
+ &lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Agent-oriented software engineering shifts the development focus from &amp;ldquo;writing code&amp;rdquo; to &amp;ldquo;describing requirements&amp;rdquo;, with the core contradiction changing from interpersonal communication costs to requirements precision. The three-phase closed loop of &amp;ldquo;requirements authoring → Agent execution → value verification&amp;rdquo; compresses iteration cycles from weeks to hours, transforming humans from coders to requirement architects and Agent commanders.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 
 
 
- &lt;h2 id="2-stage-one-copilot-era"&gt;
- 2 Stage One: Copilot Era
+ &lt;h2 id="1-why-processes-must-be-reconstructed"&gt;
+ 1 Why Processes Must Be Reconstructed
  &lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Timeline&lt;/strong&gt;: 2024-2025 (overlapping with the Agentic Era, gradually diminishing)&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;When AI Agents evolve from auxiliary tools to execution subjects, the fundamental contradiction of software development also shifts. The core pain point of traditional agile processes lies in &amp;ldquo;communication costs in collaboration&amp;rdquo;—requirements pass from business to product managers, then to technical teams, with information loss and understanding deviation at every step. In the Agent-Oriented paradigm, this contradiction transforms into a problem of &amp;ldquo;requirements precision and consistency&amp;rdquo;—as long as requirements can be clearly and unambiguously expressed, AI Agents can faithfully translate it into runnable software, with communication costs almost reduced to zero.&lt;/p&gt;</description></item><item><title>Chapter 6: From Traditional Teams to Atomic Teams</title><link>/en/part2/06-team-transformation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part2/06-team-transformation/</guid><description>&lt;h1&gt;
+ Chapter 6: From Traditional Teams to Atomic Teams
+ &lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The atomic team is a special forces model where 2-3 elite operators (product manager + Agent engineer) command an Agent fleet. Execution shifts from &amp;ldquo;humans coding&amp;rdquo; to a closed-loop flywheel of &amp;ldquo;humans defining requirements, Agents executing, humans reviewing,&amp;rdquo; compressing delivery cycles from weeks/months to hours/days for order-of-magnitude efficiency gains.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Traditional software development teams are undergoing a paradigm revolution from &amp;ldquo;labor-intensive&amp;rdquo; to &amp;ldquo;logic-intensive.&amp;rdquo; This is not just a tool upgrade, but a fundamental restructuring of organizational form—&lt;strong&gt;code is no longer the final product, but a &amp;ldquo;byproduct&amp;rdquo; of achieving business requirements.&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

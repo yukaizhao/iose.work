@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Intent-Oriented Software Engineering</title><link>/en/</link><description>Recent content on Intent-Oriented Software Engineering</description><generator>Hugo</generator><language>en</language><atom:link href="/en/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>/en/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/readme/</guid><description>&lt;h1&gt;
- Intent-Oriented Software Engineering: A Paradigm Revolution from Code to Intent
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Agent-Oriented Software Engineering</title><link>/en/</link><description>Recent content on Agent-Oriented Software Engineering</description><generator>Hugo</generator><language>en</language><atom:link href="/en/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>/en/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/readme/</guid><description>&lt;h1&gt;
+ Agent-Oriented Software Engineering: A Paradigm Revolution from Code to Agent
  &lt;/h1&gt;
 
 
@@ -11,8 +11,8 @@
  &lt;/h2&gt;
 
 &lt;p&gt;This is a comprehensive guide to the future of software engineering. As large-scale AI agents gain powerful execution capabilities, humanity&amp;rsquo;s core value will shift upward from &amp;ldquo;How to implement&amp;rdquo; to &amp;ldquo;What to achieve&amp;rdquo; and &amp;ldquo;Why it matters.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;This book originates from an in-depth dialogue spanning dozens of sessions, systematically exploring the complete journey from traditional software engineering to Intent-Oriented Software Engineering (IOSE). Whether you&amp;rsquo;re a technical leader, architect, developer, or entrepreneur, you&amp;rsquo;ll gain profound insights and practical guidance about the future of software engineering.&lt;/p&gt;</description></item><item><title>About This Book</title><link>/en/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/about/</guid><description>&lt;h1&gt;
- About Intent-Oriented Software Engineering
+&lt;p&gt;This book originates from an in-depth dialogue spanning dozens of sessions, systematically exploring the complete journey from traditional software engineering to Agent-Oriented Software Engineering (AOSE). Whether you&amp;rsquo;re a technical leader, architect, developer, or entrepreneur, you&amp;rsquo;ll gain profound insights and practical guidance about the future of software engineering.&lt;/p&gt;</description></item><item><title>About This Book</title><link>/en/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/about/</guid><description>&lt;h1&gt;
+ About Agent-Oriented Software Engineering
  &lt;/h1&gt;
 
 
@@ -23,11 +23,14 @@
  Book Introduction
  &lt;/h2&gt;
 
-&lt;p&gt;&amp;ldquo;Intent-Oriented Software Engineering&amp;rdquo; is an open-source ebook exploring the paradigm shift in software engineering in the AI era. As large-scale AI agents gain powerful execution capabilities, humanity&amp;rsquo;s core value will shift upward from &amp;ldquo;How to implement&amp;rdquo; to &amp;ldquo;What to achieve&amp;rdquo; and &amp;ldquo;Why it matters.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;This book systematically explores the complete journey from traditional software engineering to Intent-Oriented Software Engineering, providing practical transformation solutions for technical teams.&lt;/p&gt;</description></item><item><title>Chapter 1: What is Intent-Oriented Software Engineering</title><link>/en/part1/01-what-is-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/01-what-is-iose/</guid><description>&lt;h1&gt;
- Chapter 1: What is Intent-Oriented Software Engineering
+&lt;p&gt;&amp;ldquo;Agent-Oriented Software Engineering&amp;rdquo; is an open-source ebook exploring the paradigm shift in software engineering in the AI era. As large-scale AI agents gain powerful execution capabilities, humanity&amp;rsquo;s core value will shift upward from &amp;ldquo;How to implement&amp;rdquo; to &amp;ldquo;What to achieve&amp;rdquo; and &amp;ldquo;Why it matters.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;This book systematically explores the complete journey from traditional software engineering to Agent-Oriented Software Engineering, providing practical transformation solutions for technical teams.&lt;/p&gt;</description></item><item><title>Chapter 1: What is Agent-Oriented Software Engineering</title><link>/en/part1/01-what-is-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/01-what-is-iose/</guid><description>&lt;h1&gt;
+ Chapter 1: What is Agent-Oriented Software Engineering
  &lt;/h1&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;As AI agents become the actual producers of code, the core contradiction of software development has shifted from &amp;ldquo;how to write code&amp;rdquo; to &amp;ldquo;how to schedule agents.&amp;rdquo; Humans transform from coders to schedulers and constraint definers, with core value returning to defining &amp;ldquo;what to do&amp;rdquo; and &amp;ldquo;why to do it.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 
 
@@ -36,11 +39,13 @@
  1 A Core Proposition
  &lt;/h2&gt;
 
-&lt;p&gt;Software engineering is undergoing a profound paradigm shift. In the future, software development will no longer be a craft centered around code, but an entirely new engineering paradigm—&lt;strong&gt;Intent-Oriented Software Engineering (IOSE)&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;The essence of &amp;ldquo;intent-oriented&amp;rdquo; lies in introducing Large Language Model (LLM) agents into the core of software production, allowing them to replace human programmers, testers, and even architects in undertaking the repetitive implementation work of traditional development processes—from writing detailed design documents to crafting specific code, constructing test cases, building automation scripts, and executing unit tests. In this paradigm, as long as humans can express intent accurately and completely, LLMs can transform it into a running software system with remarkable efficiency.&lt;/p&gt;</description></item><item><title>Chapter 2: Why This Transformation is Needed</title><link>/en/part1/02-why-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/02-why-iose/</guid><description>&lt;h1&gt;
+&lt;p&gt;Software engineering is undergoing a profound paradigm shift. In the future, software development will no longer be a craft centered around code, but an entirely new engineering paradigm—&lt;strong&gt;Agent-Oriented Software Engineering (AOSE)&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Chapter 2: Why This Transformation is Needed</title><link>/en/part1/02-why-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/02-why-iose/</guid><description>&lt;h1&gt;
  Chapter 2: Why This Transformation is Needed
  &lt;/h1&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;AI Agents are fundamentally changing software engineering&amp;rsquo;s core contradiction: by digesting implementation complexity, the bottleneck shifts from &amp;ldquo;how to implement&amp;rdquo; to &amp;ldquo;how to accurately express requirements&amp;rdquo;. Humans transform from code executors to value judges and requirement coordinators, focusing on business understanding and trade-off decisions that AI cannot replace.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 
 
@@ -49,24 +54,13 @@
  1 The Fundamental Contradiction in Software Engineering
  &lt;/h2&gt;
 
-&lt;p&gt;Throughout the more than half-century development of software engineering, this field has always been troubled by a fundamental contradiction: &lt;strong&gt;the structural conflict between rapidly changing business requirements and the high cost of modifying software systems.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;To understand the essence of this contradiction, we must first analyze &lt;strong&gt;the dual sources of software complexity&lt;/strong&gt;. Software complexity arises from the superposition of &lt;strong&gt;Essential Complexity and Accidental Complexity&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Chapter 3: Intent Layers</title><link>/en/part1/03-intent-layers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/03-intent-layers/</guid><description>&lt;h1&gt;
- Chapter 3: Intent Layers
+&lt;p&gt;Throughout the more than half-century development of software engineering, this field has always been troubled by a fundamental contradiction: &lt;strong&gt;the structural conflict between rapidly changing business requirements and the high cost of modifying software systems.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Chapter 3: Core Differences Between Old and New Paradigms</title><link>/en/part1/03-paradigm-differences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/03-paradigm-differences/</guid><description>&lt;h1&gt;
+ Chapter 3: Core Differences Between Old and New Paradigms
  &lt;/h1&gt;
 
-
-
-
-
- &lt;h2 id="1-why-layering-is-necessary"&gt;
- 1 Why Layering is Necessary
- &lt;/h2&gt;
-
-&lt;p&gt;Intent is never a simple, single-dimensional instruction, but rather a layered semantic system. Let us understand this through a concrete scenario: when an executive says &amp;ldquo;we want to develop a membership system&amp;rdquo; at a project kickoff meeting, different roles in the room actually receive completely different information—&lt;/p&gt;
-&lt;p&gt;The &lt;strong&gt;CEO&lt;/strong&gt; envisions numbers on financial reports: can this system improve user retention? Can it generate substantial revenue growth? How does it support the company&amp;rsquo;s long-term competitive moat?&lt;/p&gt;</description></item><item><title>Chapter 4: Core Differences Between Old and New Paradigms</title><link>/en/part1/04-paradigm-differences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/04-paradigm-differences/</guid><description>&lt;h1&gt;
- Chapter 4: Core Differences Between Old and New Paradigms
- &lt;/h1&gt;
-
+&lt;blockquote&gt;
+&lt;p&gt;AOSE inherits and elevates Agile principles. The core shift is from &amp;ldquo;hand-coding&amp;rdquo; to &amp;ldquo;defining requirements and reviewing AI solutions.&amp;rdquo; Value creation moves from implementation to definition and verification, requiring technical personnel to develop new core capabilities in specification design and AI review.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 
 
@@ -75,10 +69,13 @@
  1 From Agile to Intent-Driven: A Paradigm Leap
  &lt;/h2&gt;
 
-&lt;p&gt;Looking back at the evolution of software engineering, Agile Development has undoubtedly been the most influential paradigm shift over the past two decades. Through practices such as short-cycle iterations, continuous delivery, and rapid response to change, it effectively addressed the core problem of &amp;ldquo;how to maintain responsiveness in an environment of constantly changing requirements.&amp;rdquo; However, with the maturation of large language models and AI Agent technologies, software engineering is now facing a new proposition: &amp;ldquo;how to redefine the division of labor and collaboration between humans and machines in the AI era.&amp;rdquo;&lt;/p&gt;</description></item><item><title>Chapter 5: Four Stages of Transition</title><link>/en/part2/05-four-stages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part2/05-four-stages/</guid><description>&lt;h1&gt;
- Chapter 5: Four Stages of Transition
+&lt;p&gt;Looking back at the evolution of software engineering, Agile Development has undoubtedly been the most influential paradigm shift over the past two decades. Through practices such as short-cycle iterations, continuous delivery, and rapid response to change, it effectively addressed the core problem of &amp;ldquo;how to maintain responsiveness in an environment of constantly changing requirements.&amp;rdquo; However, with the maturation of large language models and AI Agent technologies, software engineering is now facing a new proposition: &amp;ldquo;how to redefine the division of labor and collaboration between humans and machines in the AI era.&amp;rdquo;&lt;/p&gt;</description></item><item><title>Chapter 4: Four Stages of Transition</title><link>/en/part2/04-four-stages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part2/04-four-stages/</guid><description>&lt;h1&gt;
+ Chapter 4: Four Stages of Transition
  &lt;/h1&gt;
 
+&lt;blockquote&gt;
+&lt;p&gt;The transition from traditional software engineering to AOSE progresses through four irreversible stages: Copilot Era → Agentic Era → Autonomous Collaboration Era → Autonomous Ecosystem Era. 2025 marks the critical transition period from Copilot to Agent modes, with human roles continuously migrating upstream in the value chain—from coding executors to strategic decision-makers.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 
 
@@ -87,18 +84,30 @@
  1 Transformation Is Not Instantaneous
  &lt;/h2&gt;
 
-&lt;p&gt;The transition from traditional software engineering to Intent-Oriented Software Engineering will not happen overnight. It is a gradual process of deconstruction and reconstruction, involving technology stack upgrades, organizational culture transformation, and shifts in mindset.&lt;/p&gt;
-&lt;p&gt;Understanding the characteristics of each transition stage helps us develop reasonable roadmaps and set realistic expectations.&lt;/p&gt;
+&lt;p&gt;The transition from traditional software engineering to Agent-Oriented Software Engineering will not happen overnight. It is a gradual process of deconstruction and reconstruction, involving technology stack upgrades, organizational culture transformation, and shifts in mindset.&lt;/p&gt;</description></item><item><title>Chapter 5: Development Process Reconstruction</title><link>/en/part2/05-process-reconstruction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part2/05-process-reconstruction/</guid><description>&lt;h1&gt;
+ Chapter 5: Development Process Reconstruction
+ &lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Agent-oriented software engineering shifts the development focus from &amp;ldquo;writing code&amp;rdquo; to &amp;ldquo;describing requirements&amp;rdquo;, with the core contradiction changing from interpersonal communication costs to requirements precision. The three-phase closed loop of &amp;ldquo;requirements authoring → Agent execution → value verification&amp;rdquo; compresses iteration cycles from weeks to hours, transforming humans from coders to requirement architects and Agent commanders.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 
 
 
- &lt;h2 id="2-stage-one-copilot-era"&gt;
- 2 Stage One: Copilot Era
+ &lt;h2 id="1-why-processes-must-be-reconstructed"&gt;
+ 1 Why Processes Must Be Reconstructed
  &lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Timeline&lt;/strong&gt;: 2024-2025 (overlapping with the Agentic Era, gradually diminishing)&lt;/p&gt;</description></item><item><title>Read the Book</title><link>/en/read/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/read/</guid><description>&lt;h1&gt;
- Intent-Oriented Software Engineering
+&lt;p&gt;When AI Agents evolve from auxiliary tools to execution subjects, the fundamental contradiction of software development also shifts. The core pain point of traditional agile processes lies in &amp;ldquo;communication costs in collaboration&amp;rdquo;—requirements pass from business to product managers, then to technical teams, with information loss and understanding deviation at every step. In the Agent-Oriented paradigm, this contradiction transforms into a problem of &amp;ldquo;requirements precision and consistency&amp;rdquo;—as long as requirements can be clearly and unambiguously expressed, AI Agents can faithfully translate it into runnable software, with communication costs almost reduced to zero.&lt;/p&gt;</description></item><item><title>Chapter 6: From Traditional Teams to Atomic Teams</title><link>/en/part2/06-team-transformation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part2/06-team-transformation/</guid><description>&lt;h1&gt;
+ Chapter 6: From Traditional Teams to Atomic Teams
+ &lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The atomic team is a special forces model where 2-3 elite operators (product manager + Agent engineer) command an Agent fleet. Execution shifts from &amp;ldquo;humans coding&amp;rdquo; to a closed-loop flywheel of &amp;ldquo;humans defining requirements, Agents executing, humans reviewing,&amp;rdquo; compressing delivery cycles from weeks/months to hours/days for order-of-magnitude efficiency gains.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Traditional software development teams are undergoing a paradigm revolution from &amp;ldquo;labor-intensive&amp;rdquo; to &amp;ldquo;logic-intensive.&amp;rdquo; This is not just a tool upgrade, but a fundamental restructuring of organizational form—&lt;strong&gt;code is no longer the final product, but a &amp;ldquo;byproduct&amp;rdquo; of achieving business requirements.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Read the Book</title><link>/en/read/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/read/</guid><description>&lt;h1&gt;
+ Agent-Oriented Software Engineering
  &lt;/h1&gt;
 
 
@@ -110,4 +119,4 @@
  &lt;/h2&gt;
 
 &lt;p&gt;This is a systematic guide about the future form of software engineering. When large model agents possess powerful execution capabilities, human core value will completely shift from &amp;ldquo;How to implement&amp;rdquo; to &amp;ldquo;What to implement&amp;rdquo; and &amp;ldquo;Why implement it.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;This book systematically explores the complete path of transition from traditional software engineering to &amp;ldquo;intent-oriented software engineering.&amp;rdquo; Whether you are a technical manager, architect, developer, or entrepreneur, you can gain profound insights and practical guidelines about the future of software engineering from this book.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;This book systematically explores the complete path of transition from traditional software engineering to &amp;ldquo;Agent-Oriented Software Engineering.&amp;rdquo; Whether you are a technical manager, architect, developer, or entrepreneur, you can gain profound insights and practical guidelines about the future of software engineering from this book.&lt;/p&gt;</description></item></channel></rss>
