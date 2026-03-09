@@ -1,1 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Part3s on 面向智能体软件工程</title><link>/part3/</link><description>Recent content in Part3s on 面向智能体软件工程</description><generator>Hugo</generator><language>zh</language><atom:link href="/part3/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Part3s on 面向智能体软件工程</title><link>/part3/</link><description>Recent content in Part3s on 面向智能体软件工程</description><generator>Hugo</generator><language>zh</language><atom:link href="/part3/index.xml" rel="self" type="application/rss+xml"/><item><title>第九章：管理者如何引导团队变革</title><link>/part3/09-leading-team-transformation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part3/09-leading-team-transformation/</guid><description>&lt;h1&gt;
+ 第九章：管理者如何引导团队变革
+ &lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;管理者推动团队转型需从组织重构、人才发展、流程再造、度量体系四维度发力。通过组建&amp;quot;先遣实验小组&amp;quot;验证模式，三个月内完成工具普及、BDD需求化流程、Agent工程师上岗，建立三层防护体系划定人机红线，将工程师从编码者转变为Agent编排者。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作为技术总监或工程副总裁，你深知这种转型不仅是工具的更替，更是&lt;strong&gt;组织基因的重写&lt;/strong&gt;。如果由你来主导这次向&amp;quot;Agent 驱动型团队&amp;quot;的转型，你需要从&lt;strong&gt;组织重构、人才发展、流程再造和度量体系&lt;/strong&gt;四个维度精准发力。&lt;/p&gt;
+&lt;p&gt;本章提供一份&amp;quot;转型实战蓝图&amp;quot;，帮助管理者系统性地推进团队变革。&lt;/p&gt;
+&lt;hr&gt;
+
+
+
+
+ &lt;h2 id="一从工厂化到特种作战组织重构"&gt;
+ 一、从&amp;quot;工厂化&amp;quot;到&amp;quot;特种作战&amp;quot;：组织重构
+ &lt;/h2&gt;
+
+&lt;p&gt;传统的&amp;quot;前端团队/后端团队/测试团队&amp;quot;的部门墙，在 Agent 时代已经成为效率的桎梏。Agent 产生代码的速度是人类的 10 倍，如果组织架构跟不上，团队只会陷入更快的混乱。&lt;/p&gt;
+&lt;p&gt;你需要打破这些部门墙，重新编排人才阵地。&lt;/p&gt;
+
+
+
+
+ &lt;h3 id="1-组建先遣实验小组alpha-team"&gt;
+ 1. 组建&amp;quot;先遣实验小组（Alpha Team）&amp;quot;
+ &lt;/h3&gt;
+
+&lt;p&gt;不要试图一次性改变整个团队。先组建一支精锐的&amp;quot;先遣部队&amp;quot;，在局部战场验证新模式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;人员配置：&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;角色&lt;/th&gt;
+ &lt;th&gt;数量&lt;/th&gt;
+ &lt;th&gt;核心特质&lt;/th&gt;
+ &lt;th&gt;职责&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;产品架构师型 PM&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;1 名&lt;/td&gt;
+ &lt;td&gt;具备技术背景，能用逻辑而非文档描述需求&lt;/td&gt;
+ &lt;td&gt;定义业务需求，与工程师直接对话，跳过繁冗的 PRD 流程&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Agent 工程师&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;2 名&lt;/td&gt;
+ &lt;td&gt;具备&amp;quot;黑客精神&amp;quot;——快速试错、善于调教 AI、对新技术有嗅觉&lt;/td&gt;
+ &lt;td&gt;负责产品需求编排、Prompt 设计、多 Agent 协作流程搭建&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;具体任务：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;选择试验田&lt;/strong&gt;：找一个非核心但有业务价值的模块（如内部运营后台、数据报表系统），风险可控但变化可感知&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;跑通全流程&lt;/strong&gt;：从需求输入到 Agent 编排，再到自动部署上线，验证端到端的可行性&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;沉淀 SOP&lt;/strong&gt;：记录每一个关键决策、每一个踩过的坑、每一个有效的 Prompt 模板，形成可复制的操作手册&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输出战报&lt;/strong&gt;：用数据和案例向全公司展示成果——&amp;ldquo;我们用 3 个人 2 周完成了原本 8 人团队 1 个月的工作量&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+ &lt;h3 id="2-角色重塑与培训"&gt;
+ 2. 角色重塑与培训
+ &lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;存量筛选：识别人才光谱&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;不要幻想所有人都能快速转型。你需要做一个残酷但必要的盘点：&lt;/p&gt;</description></item><item><title>第十章：软件工程师进化为 Agent 工程师</title><link>/part3/10-engineer-evolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/part3/10-engineer-evolution/</guid><description>&lt;h1&gt;
+ 第十章：软件工程师进化为 Agent 工程师
+ &lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;代码正在变得廉价，而“解决问题的逻辑”正在变得昂贵。Agent 工程师的核心能力是从执行层跃迁到调度层——你负责逻辑和边界定义，Agent 负责语法和执行，从“怎么写”转向“做什么”以及“如何编排逻辑流”。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;作为处于这场变革旋涡中心的软件工程师，你必须清醒地认识到：&lt;strong&gt;如果你依然沉迷于手写每一行 &lt;code&gt;if-else&lt;/code&gt; 或纠结于某个框架的语法糖，你很快就会成为新时代的“打字员”。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;进化成 &lt;strong&gt;Agent 工程师（Agent Orchestrator）&lt;/strong&gt;，本质上是从&lt;strong&gt;执行层&lt;/strong&gt;跃迁到&lt;strong&gt;调度层&lt;/strong&gt;。本章将为你提供一份从“搬砖工”到“指挥官”的完整进化路线图。&lt;/p&gt;
+&lt;hr&gt;
+
+
+
+
+ &lt;h2 id="一认知重构从编写者到审查者与编排者"&gt;
+ 一、认知重构：从“编写者”到“审查者与编排者”
+ &lt;/h2&gt;
+
+&lt;p&gt;在开始技能训练之前，心态的重构是转型的地基。&lt;/p&gt;
+
+
+
+
+ &lt;h3 id="1-思维模式的三大转变"&gt;
+ 1. 思维模式的三大转变
+ &lt;/h3&gt;
+
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;维度&lt;/th&gt;
+ &lt;th&gt;传统工程师思维&lt;/th&gt;
+ &lt;th&gt;Agent 工程师思维&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;价值导向&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;以“手写代码量”和“技术实现细节”为荣&lt;/td&gt;
+ &lt;td&gt;以“系统交付速度与稳定性”为荣&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;资产认知&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;代码是核心资产，越多越体现工作量&lt;/td&gt;
+ &lt;td&gt;代码是负债——生成的代码越少、逻辑越清晰，系统越好维护&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;关注焦点&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;聚焦语法细节、框架特性和具体实现&lt;/td&gt;
+ &lt;td&gt;聚焦边界定义、极端情况处理和反馈循环设计&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+ &lt;h3 id="2-重新理解-agent-的本质"&gt;
+ 2. 重新理解 Agent 的本质
+ &lt;/h3&gt;
+
+&lt;p&gt;很多开发者将编码 Agent（如 Cursor、Claude Code 等）视为增强版的“搜索引擎”或“代码补全插件”，这极大限制了其潜力的发挥。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;正确的认知是：把 Agent 当成一个智商极高但极度缺乏业务常识、且毫无读心能力的“初级开发天才”。&lt;/strong&gt; 它拥有令人惊叹的知识广度，能够瞬间调用海量开源库的解决方案；但它对你的业务领域、项目规范以及经年累月的历史技术债一无所知。最危险的是，它会在缺乏上下文时产生“幻觉”，用专业术语编织出看似合理实则错误的答案。唯有当你明确划定边界、提供充分上下文时，它才能发挥出真正的价值。&lt;/p&gt;
+
+
+
+
+ &lt;h3 id="3-核心协作原则"&gt;
+ 3. 核心协作原则
+ &lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;你负责逻辑和边界，Agent 负责语法和执行。&lt;/strong&gt; 这主要体现在三个核心动作：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;上下文管理（Context Is King）&lt;/strong&gt;：在对话前，必须主动标记相关的代码文件、文档或 API 定义（如使用 &lt;code&gt;@&lt;/code&gt; 功能）。缺乏上下文，Agent 就会走向“胡编乱造”。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;原子化拆解（Atomic Decomposition）&lt;/strong&gt;：摒弃“一个 Prompt 生成整个系统”的幻想。将宏大需求拆解为 &lt;code&gt;定义数据模型 → 编写工具函数 → 实现核心逻辑 → 封装 API → 编写单测&lt;/code&gt; 的原子级问题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;反馈循环（Feedback Loop）&lt;/strong&gt;：面对 Agent 的报错，切忌直接手动修改其生成的代码。正确的做法是将错误日志反馈给它，追问原因并要求其修复，让 Agent 在纠错中持续学习你的项目上下文。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+
+
+
+
+ &lt;h2 id="二核心技能树从-code-到-orchestration"&gt;
+ 二、核心技能树：从 Code 到 Orchestration
+ &lt;/h2&gt;
+
+&lt;p&gt;进入 2026 年，软件开发范式正经历深刻变革。Agent 工程师的核心价值不再是编码速度，而是&lt;strong&gt;作为“首席架构师”，通过指挥数字劳动力（Agents）来交付复杂系统的能力&lt;/strong&gt;。以下是你必须掌握的六大技能层级：&lt;/p&gt;</description></item></channel></rss>

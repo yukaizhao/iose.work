@@ -39,7 +39,12 @@
  1 A Core Proposition
  &lt;/h2&gt;
 
-&lt;p&gt;Software engineering is undergoing a profound paradigm shift. In the future, software development will no longer be a craft centered around code, but an entirely new engineering paradigm—&lt;strong&gt;Agent-Oriented Software Engineering (AOSE)&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Chapter 2: Why This Transformation is Needed</title><link>/en/part1/02-why-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/02-why-iose/</guid><description>&lt;h1&gt;
+&lt;p&gt;Software engineering is undergoing a profound paradigm shift. In the future, software development will no longer be a craft centered around code, but an entirely new engineering paradigm—&lt;strong&gt;Agent-Oriented Software Engineering (AOSE)&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Chapter 10: Software Engineer Evolution to Agent Engineer</title><link>/en/part3/10-engineer-evolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part3/10-engineer-evolution/</guid><description>&lt;h1&gt;
+ Chapter 10: Software Engineer Evolution to Agent Engineer
+ &lt;/h1&gt;
+
+&lt;p&gt;As a software engineer at the center of this transformation vortex, you must clearly recognize: &lt;strong&gt;Code is becoming cheap, while &amp;ldquo;logic for solving problems&amp;rdquo; is becoming expensive.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you are still obsessed with hand-writing every line of &lt;code&gt;if-else&lt;/code&gt; or纠结于某个框架的语法糖, you will soon become the &amp;ldquo;typist&amp;rdquo; of the new era. Evolving into an &lt;strong&gt;Agent Engineer (Agent Orchestrator)&lt;/strong&gt; is essentially a leap from the &lt;strong&gt;execution layer&lt;/strong&gt; to the &lt;strong&gt;scheduling layer&lt;/strong&gt;—from &amp;ldquo;how to write (How)&amp;rdquo; to &amp;ldquo;what to do (What)&amp;rdquo; and &amp;ldquo;how to orchestrate logic flows (Flow).&amp;rdquo;&lt;/p&gt;</description></item><item><title>Chapter 2: Why This Transformation is Needed</title><link>/en/part1/02-why-iose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part1/02-why-iose/</guid><description>&lt;h1&gt;
  Chapter 2: Why This Transformation is Needed
  &lt;/h1&gt;
 
@@ -99,14 +104,48 @@
  1 Why Processes Must Be Reconstructed
  &lt;/h2&gt;
 
-&lt;p&gt;When AI Agents evolve from auxiliary tools to execution subjects, the fundamental contradiction of software development also shifts. The core pain point of traditional agile processes lies in &amp;ldquo;communication costs in collaboration&amp;rdquo;—requirements pass from business to product managers, then to technical teams, with information loss and understanding deviation at every step. In the Agent-Oriented paradigm, this contradiction transforms into a problem of &amp;ldquo;requirements precision and consistency&amp;rdquo;—as long as requirements can be clearly and unambiguously expressed, AI Agents can faithfully translate it into runnable software, with communication costs almost reduced to zero.&lt;/p&gt;</description></item><item><title>Chapter 6: From Traditional Teams to Atomic Teams</title><link>/en/part2/06-team-transformation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part2/06-team-transformation/</guid><description>&lt;h1&gt;
- Chapter 6: From Traditional Teams to Atomic Teams
+&lt;p&gt;When AI Agents evolve from auxiliary tools to execution subjects, the fundamental contradiction of software development also shifts. The core pain point of traditional agile processes lies in &amp;ldquo;communication costs in collaboration&amp;rdquo;—requirements pass from business to product managers, then to technical teams, with information loss and understanding deviation at every step. In the Agent-Oriented paradigm, this contradiction transforms into a problem of &amp;ldquo;requirements precision and consistency&amp;rdquo;—as long as requirements can be clearly and unambiguously expressed, AI Agents can faithfully translate it into runnable software, with communication costs almost reduced to zero.&lt;/p&gt;</description></item><item><title>Chapter 7: Documentation Evolution</title><link>/en/part2/07-documentation-evolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part2/07-documentation-evolution/</guid><description>&lt;h1&gt;
+ Chapter 7: Documentation Evolution
  &lt;/h1&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;The atomic team is a special forces model where 2-3 elite operators (product manager + Agent engineer) command an Agent fleet. Execution shifts from &amp;ldquo;humans coding&amp;rdquo; to a closed-loop flywheel of &amp;ldquo;humans defining requirements, Agents executing, humans reviewing,&amp;rdquo; compressing delivery cycles from weeks/months to hours/days for order-of-magnitude efficiency gains.&lt;/p&gt;
+&lt;p&gt;In the Agent era, documentation transforms from static records into core assets that drive execution. BDD&amp;rsquo;s Given-When-Then structure serves as the bridge connecting human intent to Agent execution, while project-level specifications and architectural constraints form the &amp;ldquo;living contract&amp;rdquo; of human-Agent collaboration.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Traditional software development teams are undergoing a paradigm revolution from &amp;ldquo;labor-intensive&amp;rdquo; to &amp;ldquo;logic-intensive.&amp;rdquo; This is not just a tool upgrade, but a fundamental restructuring of organizational form—&lt;strong&gt;code is no longer the final product, but a &amp;ldquo;byproduct&amp;rdquo; of achieving business requirements.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Read the Book</title><link>/en/read/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/read/</guid><description>&lt;h1&gt;
+
+
+
+
+ &lt;h2 id="1-re-examining-the-agile-manifesto"&gt;
+ 1 Re-examining the Agile Manifesto
+ &lt;/h2&gt;
+
+&lt;p&gt;The Agile Manifesto (2001) states:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Working software over comprehensive documentation&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is often misread as &amp;ldquo;no documentation needed.&amp;rdquo; But Agile&amp;rsquo;s true intent emphasizes &lt;strong&gt;value prioritization&lt;/strong&gt;: if a document doesn&amp;rsquo;t directly help deliver working software, its priority should be lowered. Documentation is a means; software is the end.&lt;/p&gt;</description></item><item><title>Chapter 8: Constraint Networks</title><link>/en/part2/08-constraint-network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part2/08-constraint-network/</guid><description>&lt;h1&gt;
+ Chapter 8: Constraint Networks—Quality Boundaries in the Agent Era
+ &lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Agents are high-performance engines; constraints are the chassis and brakes. Constraint networks transform quality assurance from passive documentation into actively executed codified rules, ensuring that autonomy does not become chaos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+
+ &lt;h2 id="1-from-documentation-standards-to-executable-constraints"&gt;
+ 1 From Documentation Standards to Executable Constraints
+ &lt;/h2&gt;
+
+&lt;p&gt;The emergence of AI coding Agents (Cursor, Claude Code, etc.) has dramatically improved code generation throughput, but they are essentially &lt;strong&gt;pursuers of local optima&lt;/strong&gt;. Without clear boundaries, Agents often write code that runs but creates logical coupling, lacks abstraction, or introduces redundancy. This &amp;ldquo;patchwork&amp;rdquo; development approach gradually plunges projects into &amp;ldquo;AI-generated spaghetti code&amp;rdquo; without anyone noticing.&lt;/p&gt;</description></item><item><title>Chapter 9: Leading Team Transformation</title><link>/en/part3/09-leading-team-transformation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/part3/09-leading-team-transformation/</guid><description>&lt;h1&gt;
+ Chapter 9: How Leaders Guide Team Transformation
+ &lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Transformation is not about chasing trends—it&amp;rsquo;s about survival. When a competitor&amp;rsquo;s 3-person squad delivers features faster than your 10-person team, you have no way out.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As a CTO or VP of Engineering, you understand this transformation is not merely tool replacement, but a &lt;strong&gt;rewrite of organizational DNA&lt;/strong&gt;. If you&amp;rsquo;re leading this evolution toward &amp;ldquo;Agent-Driven Teams,&amp;rdquo; you must focus on four dimensions: &lt;strong&gt;organizational restructuring, talent development, process reengineering, and measurement systems.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Read the Book</title><link>/en/read/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/en/read/</guid><description>&lt;h1&gt;
  Agent-Oriented Software Engineering
  &lt;/h1&gt;
 
